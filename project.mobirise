@@ -681,11 +681,11 @@
           "_name": "header6",
           "_customHTML": "<section class=\"header6\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/cope23-slideshow-2017-87-2000x1324.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#555555\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=E0Pa8tYo94U\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#333333\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column mbr-white col-md-10 offset-md-1\">\n            <h1 class=\"mbr-section-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">A new <b>UNDP</b></h1>\n            <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                The Strategic Plan 2018-2021 sets out the direction for a new UNDP, optimized to help countries achieve the 2030 Agenda for Sustainable Development.\n            </p>\n            <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary btn-bgr\" href=\"http://undocs.org/DP/2017/38\" target=\"_blank\">View the Strategic Plan</a></div>\n        </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "qCtOvzWCeu",
+          "_anchor": "header6-1u",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header6-1u"
+          "_params": {}
         },
         {
           "_styles": {
@@ -703,11 +703,11 @@
           "_name": "header6",
           "_customHTML": "<section class=\"header6\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/20140617-undp-drc-sus-dev-flickr-31149959062-e1f067d9be-o-2000x1334.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#555555\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=E0Pa8tYo94U\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#333333\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column mbr-white col-md-10 offset-md-1\">\n            <h1 class=\"mbr-section-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Building on strengths</b></h1>\n            <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                We’re building on our strengths and expertise, country relationships and <b>presence on the ground</b> in more than 170 countries and territories.\n            </p>\n            <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-white-outline btn-bgr\" href=\"https://mobirise.com\">See How it Works</a></div>\n        </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "qCtPZJYmYH",
+          "_anchor": "header6-1w",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header6-1w"
+          "_params": {}
         },
         {
           "_styles": {
@@ -725,11 +725,11 @@
           "_name": "header6",
           "_customHTML": "<section class=\"header6\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/cope23-slideshow-2017-6-2000x1500.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#555555\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=E0Pa8tYo94U\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#333333\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column mbr-white col-md-10 offset-md-1\">\n            <h1 class=\"mbr-section-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Bolder Innovation</b></h1>\n            <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                UNDP is evolving to become more innovative and efficient and to respond effectively to the <b>new and emerging needs</b> of Member States and UN Agencies.\n            </p>\n            <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-md btn-primary btn-bgr\" href=\"https://mobirise.com\">Read More</a>\n                    <a class=\"btn btn-md btn-white-outline btn-bgr\" href=\"https://mobirise.com\">See How it Works</a>\n            </div>\n        </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "qCtQoVotOl",
+          "_anchor": "header6-1x",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header6-1x"
+          "_params": {}
         },
         {
           "_styles": {
@@ -747,11 +747,11 @@
           "_name": "header6",
           "_customHTML": "<section class=\"header6\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/cope23-slideshow-2017-67-2000x1333.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#555555\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=E0Pa8tYo94U\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#333333\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column mbr-white col-md-10 offset-md-1\">\n            <h1 class=\"mbr-section-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Closer partnerships</b></h1>\n            <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">The Plan commits us to working closer with partners; adding value to the work of the <a href=\"http://www.undp.org/content/undp/en/home/partners/undp-and-the-un.html\" target=\"_blank\"><b>UN family</b></a> is fundamental to UNDP’s mission.<br></p>\n            <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-md btn-primary btn-bgr\" href=\"https://mobirise.com\">Read More</a>\n                    <a class=\"btn btn-md btn-white-outline btn-bgr\" href=\"https://mobirise.com\">See How it Works</a>\n            </div>\n        </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "qCu1Me4rLi",
+          "_anchor": "header6-22",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header6-22"
+          "_params": {}
         },
         {
           "_styles": {
@@ -874,6 +874,7 @@
           "_name": "gallery1",
           "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#4284df\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text></div>\n    </div>\n</section>",
           "_cid": "qCA3hntXyx",
+          "_anchor": "gallery1-29",
           "_protectedParams": [
             "text_all",
             "gallery"
@@ -897,62 +898,14 @@
               },
               {
                 "tags": "Creative",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2017-11-5-13-15-1-186522.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2017-11-5-15-35-20-987262.jpg",
                 "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=knqM4LxogYk&index=3&list=PLhanS7jySFTL2D8A-nsXsxHRIypmBuZ67",
+                "videoUrl": "https://www.youtube.com/watch?v=o7SKA5r6t_Q",
                 "image": "@PROJECT_PATH@/assets/images/gallery02.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/gallery02.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Mauritius",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2017-11-5-13-15-37-36464.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=PvAyoHZWZ6w&list=PLhanS7jySFTL2D8A-nsXsxHRIypmBuZ67&index=6",
-                "image": "@PROJECT_PATH@/assets/images/gallery04.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gallery04.jpg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "Russian Federation",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2017-11-5-13-16-3-330241.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=IsFnNXSkA1A&index=8&list=PLhanS7jySFTL2D8A-nsXsxHRIypmBuZ67",
-                "image": "@PROJECT_PATH@/assets/images/gallery05.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gallery05.jpg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "Panama",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2017-11-5-13-16-24-605899.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=VqIemdP9nOg&list=PLhanS7jySFTL2D8A-nsXsxHRIypmBuZ67&index=5",
-                "image": "@PROJECT_PATH@/assets/images/gallery06.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gallery06.jpg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "Japan",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2017-11-5-13-16-46-2436.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=yOjedADMvpY&index=7&list=PLhanS7jySFTL2D8A-nsXsxHRIypmBuZ67",
-                "image": "@PROJECT_PATH@/assets/images/gallery07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gallery07.jpg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "Switzerland",
+                "caption": "Belgium",
                 "active": false
               },
               {
@@ -968,15 +921,27 @@
                 "active": false
               },
               {
-                "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2017-11-5-13-17-21-464683.jpg",
+                "tags": "Creative",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2017-11-5-15-36-21-322858.jpg",
                 "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=xdnE3ADXHNg&index=10&list=PLhanS7jySFTL2D8A-nsXsxHRIypmBuZ67",
-                "image": "@PROJECT_PATH@/assets/images/gallery07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gallery07.jpg",
+                "videoUrl": "https://www.youtube.com/watch?v=3i5dI83NC3w",
+                "image": "@PROJECT_PATH@/assets/images/gallery02.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery02.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "United Kingdom ",
+                "caption": "Germany",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2017-11-5-13-16-24-605899.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=VqIemdP9nOg&list=PLhanS7jySFTL2D8A-nsXsxHRIypmBuZ67&index=5",
+                "image": "@PROJECT_PATH@/assets/images/gallery06.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery06.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Japan",
                 "active": false
               },
               {
@@ -993,31 +958,66 @@
               },
               {
                 "tags": "Creative",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2017-11-5-15-35-20-987262.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2017-11-5-13-15-1-186522.jpg",
                 "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=o7SKA5r6t_Q",
+                "videoUrl": "https://www.youtube.com/watch?v=knqM4LxogYk&index=3&list=PLhanS7jySFTL2D8A-nsXsxHRIypmBuZ67",
                 "image": "@PROJECT_PATH@/assets/images/gallery02.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/gallery02.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Belgium",
+                "caption": "Mauritius",
                 "active": false
               },
               {
-                "tags": "Creative",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2017-11-5-15-36-21-322858.jpg",
+                "tags": "Awesome",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2017-11-5-13-16-3-330241.jpg",
                 "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=3i5dI83NC3w",
-                "image": "@PROJECT_PATH@/assets/images/gallery02.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gallery02.jpg",
+                "videoUrl": "https://www.youtube.com/watch?v=IsFnNXSkA1A&index=8&list=PLhanS7jySFTL2D8A-nsXsxHRIypmBuZ67",
+                "image": "@PROJECT_PATH@/assets/images/gallery05.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery05.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Germany",
+                "caption": "Panama",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2017-11-5-13-15-37-36464.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=PvAyoHZWZ6w&list=PLhanS7jySFTL2D8A-nsXsxHRIypmBuZ67&index=6",
+                "image": "@PROJECT_PATH@/assets/images/gallery04.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery04.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Russian Federation",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2017-11-5-13-16-46-2436.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=yOjedADMvpY&index=7&list=PLhanS7jySFTL2D8A-nsXsxHRIypmBuZ67",
+                "image": "@PROJECT_PATH@/assets/images/gallery07.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery07.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Switzerland",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2017-11-5-13-17-21-464683.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=xdnE3ADXHNg&index=10&list=PLhanS7jySFTL2D8A-nsXsxHRIypmBuZ67",
+                "image": "@PROJECT_PATH@/assets/images/gallery07.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery07.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "United Kingdom ",
                 "active": true
               }
             ]
-          },
-          "_anchor": "gallery1-29"
+          }
         },
         {
           "_styles": {
@@ -1035,11 +1035,11 @@
           "_name": "header6",
           "_customHTML": "<section class=\"header6\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/20160821-undp-afg-gen-equ-flickr-caption-31979945081-bcfa17014a-o-2000x1333.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#555555\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=E0Pa8tYo94U\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#333333\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column mbr-white col-md-10 offset-md-1\">\n            <h1 class=\"mbr-section-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Stronger results&nbsp;</b></h1>\n            <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                With an improved business model making us more effective, transparent and accountable, we can deliver stronger results for those we serve.\n            </p>\n            <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary btn-bgr\" href=\"http://undocs.org/DP/2017/38\">View the Strategic Plan</a></div>\n        </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "qCtQXmNHA7",
+          "_anchor": "header6-1z",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header6-1z"
+          "_params": {}
         },
         {
           "_styles": {
