@@ -989,6 +989,30 @@
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Libya",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2017-11-5-15-35-20-987262.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=o7SKA5r6t_Q",
+                "image": "@PROJECT_PATH@/assets/images/gallery02.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery02.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Belgium",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2017-11-5-15-36-21-322858.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=3i5dI83NC3w",
+                "image": "@PROJECT_PATH@/assets/images/gallery02.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery02.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Germany",
                 "active": true
               }
             ]
