@@ -1,0 +1,49 @@
+# generic info
+lang: en
+logo-blue: undp-logo-blue.svg
+logo-white: undp-logo-white.svg
+title: Strategic Plan 2022–2025
+gtm: GTM-WXLP78Q
+
+# page metadata
+meta:
+  title: Strategic Plan 2022–2025 | UNDP
+  description: Driving the future of development.
+  keywords: UNDP, UN, strategic plan, 2022
+  canonical: https://strategicplan.undp.org/
+  ogtitle: Strategic Plan 2022–2025 | UNDP
+
+# i18n
+labels:
+  undplong: United Nations Development Programme
+  undp: UNDP
+  sdglong: Sustainable Development Goals
+  learnmore: Learn more
+  blank: assets/img/0.png
+  blank-inline: "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+  message: Message
+  share: Share
+  downloadreport: Download report
+  administrator: Administrator
+  readmore: "Read more"
+  readless: "- Close"
+
+# content
+
+# menu:
+#   - Home
+#   - Foreword and results
+#   - Delivering on development
+#   - People of UNDP
+#   - Human Development Report 2020
+#   - Integration at work
+#   - Climate Promise
+#   - Our partners
+#   - Investing in UNDP
+#   - Global, regional, local
+
+cover:
+  title: Strategic Plan 2022–2025
+
+foreword:
+  title: Foreword

@@ -1,0 +1,33 @@
+# generic info
+lang: es
+logo-blue: pnud-logo-blue.svg
+logo-white: pnud-logo-white.svg
+title: Informe Anual 2020
+gtm: GTM-WXLP78Q
+
+# page metadata
+meta:
+  title: Informe Anual 2020 | PNUD
+  description: Una fuerza motriz para el futuro del desarrollo
+  keywords: PNUD, UN, Informe Anual, 2020
+  canonical: https://annualreport.undp.org/
+  ogtitle: Informe Anual 2020 | PNUD
+
+# i18n
+labels:
+  undplong: Programa de las Naciones Unidas para el Desarrollo
+  undp: PNUD
+  sdglong: Objetivos de Desarrollo Sostenible
+  learnmore: Aprende más
+  blank: ../assets/img/0.png
+  blank-inline: "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+  message: Mensaje
+  share: Comparte
+  annualreport: Informe Anual
+  downloadreport: Descargar el informe
+  administrator: Administrador
+  readmore: "+ Leer más"
+  readless: "- Cerrar"
+  signaturesolution: Solución emblemática
+
+# content

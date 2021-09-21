@@ -1,0 +1,39 @@
+<div class="section-06-leadership padded" id="toc3" data-magellan-target="toc3">
+
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x align-center">
+      <div class="cell text-center medium-8">
+        <h2>{{06-leadership.title}}</h2>
+        <p>{{{06-leadership.text}}}</p>
+      </div>
+    </div>
+    
+  </div>
+  <div class="cell text-center container leadersWrap">
+    <!-- Slider main container -->
+    <div data-shadow-class="swiper-container" data-swiperjs>
+      <!-- Additional required wrapper -->
+      <div class="grid-x grid-padding-x medium-up-3 align-center" data-shadow-class="swiper-wrapper" data-equalizer
+        data-equalize-on="large" data-equalize-by-row="true">
+        <!-- Slides -->
+        {{#each 06-leadership.leaders}}
+        <div class="cell bio" data-shadow-class="swiper-slide bio">
+          <img alt="{{05-macro-micro.icon.alt}}" src="{{@root.root}}{{labels.blank}}"
+            data-src="{{@root.root}}assets/img/{{img}}@2x.jpg" class="lazyload">
+          <div class="lead text-bold">{{name}}</div>
+          <p>{{title}}</p>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+  <div class="grid-container footnoteText">
+    <div class="grid-x align-center">
+      <div class="small-10 medium-6 text-center">{{{06-leadership.footnoteText}}}</div>
+    </div>
+  </div>
+  
+
+</div>

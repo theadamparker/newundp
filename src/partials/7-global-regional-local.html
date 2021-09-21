@@ -1,0 +1,35 @@
+<div class="section-10-strategic-plans padded section" id="toc6" data-magellan-target="toc6">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x section">
+            <div class="small-12 cell">
+                <h2>{{10-strategic-plans.title}}</h2>
+                <h3>{{10-strategic-plans.subtitle}}</h3>
+                {{{10-strategic-plans.text}}}
+            </div>
+        </div>
+    </div>
+    <div class="circleSlider hide-for-medium">
+        <!-- Slider main container -->
+        <div data-shadow-class="swiper-container" data-swiperjs>
+            <!-- Additional required wrapper -->
+            <div class="grid-x grid-padding-x medium-up-3 align-center" data-shadow-class="swiper-wrapper"
+                data-equalizer data-equalize-on="large" data-equalize-by-row="true">
+                <!-- Slides -->
+                {{#each 10-strategic-plans.topic}}
+                <div data-shadow-class="swiper-slide">
+                    <div class="singleCircle {{class}}">
+                        <div class="lead text-bold">{{name}}</div>
+                        <p>{{text}}</p>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+    <div class="planGraphic hide-for-small-only">
+        <img alt="" src="{{@root.root}}{{labels.blank}}" data-src="{{@root.root}}assets/img/{{10-strategic-plans.img}}.png"
+            data-srcset="{{@root.root}}assets/img/{{10-strategic-plans.img}}@2x.png 2x" class="lazyload megaGraphic">
+    </div>
+</div>

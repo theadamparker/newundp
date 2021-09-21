@@ -1,0 +1,60 @@
+{
+  "name": "@undp/newundp",
+  "version": "1.0.0",
+  "description": "ar2020",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --production"
+  },
+  "author": "Adam Parker <adam.parker@undp.org>",
+  "license": "CC BY-NC 4.0",
+  "dependencies": {
+    "foundation-sites": "^6.6.3",
+    "jquery": "^3.5.1",
+    "lazysizes": "^5.1.2",
+    "motion-ui": "^2.0.3",
+    "swiper": "^5.4.1",
+    "what-input": "^5.2.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/register": "^7.7.4",
+    "autoprefixer": "^9.7.3",
+    "babel-loader": "^8.0.6",
+    "browser-sync": "^2.26.7",
+    "foundation-sites": "^6.6.3",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-cli": "^2.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-extname": "^0.2.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "js-yaml": "^3.13.1",
+    "panini": "^1.6.3",
+    "rimraf": "^3.0.0",
+    "style-sherpa": "^1.0.2",
+    "uncss": "^0.17.2",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^4.43.0",
+    "webpack-stream": "^5.2.1",
+    "yargs": "^15.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/undp/newundp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/undp/newundp/issues"
+  },
+  "private": true
+}
