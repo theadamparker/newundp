@@ -1,37 +1,11 @@
-<div class="section-01-foreword padded">
+<div class="section-1-foreword padded">
   <div class="grid-container section" id="toc1" data-magellan-target="toc1">
     <div class="grid-x grid-padding-x">
-      <div class="cell readmore" id="foreword" data-toggler="expanded">
-        <h2>{{foreword.title}}</h2>
-        {{{foreword.text1}}}
-        <div class="grid-x grid-padding-x">
-          <div class="small-12 medium-8 cell">
-            {{{foreword.text2}}}
-          </div>
-          <div class="small-12 medium-3 medium-offset-1 cell">
-            <p>
-            <figure>
-              <img alt="Achim Steiner" src="{{@root.root}}{{labels.blank}}"
-                data-src="{{@root.root}}assets/img/01-photo-achim.jpg"
-                data-srcset="{{@root.root}}assets/img/01-photo-achim@2x.jpg 2x" width="205" height="229"
-                class="lazyload">
-              <figcaption>{{foreword.credit}}</figcaption>
-            </figure>
-            </p>
-            <p>
-            <figure>
-              <img alt="Achim Steiner signature" src="{{@root.root}}{{labels.blank}}"
-                data-src="{{@root.root}}assets/img/01-signature-achim.jpg"
-                data-srcset="{{@root.root}}assets/img/01-signature-achim@2x.jpg 2x" width="162" height="65"
-                class="lazyload blendModeMultiply">
-            </figure>
-            </p>
-            <p>
-              <strong>Achim Steiner</strong><br>
-              {{labels.administrator}}<br>
-              {{labels.undplong}}
-            </p>
-          </div>
+      <div class="small-12 medium-6 medium-offset-1 cell readmore" id="foreword" data-toggler="expanded">
+        <h2>{{1-foreword.title}}</h2>
+        {{{1-foreword.text1}}}
+        <div class="small-12 medium-8 cell">
+          {{{1-foreword.text2}}}
         </div>
         <div class="readmore-panel">
           <button class="button" data-toggle="foreword">
@@ -40,6 +14,29 @@
           </button>
         </div>
       </div>
+      <div class="small-12 medium-3 medium-offset-1">
+        <div class="bgLightGray">
+        <figure>
+          <img alt="Achim Steiner" 
+            src="{{@root.root}}{{labels.blank}}"
+            data-src="{{@root.root}}assets/img/1-photo-achim.jpg"
+            data-srcset="{{@root.root}}assets/img/1-photo-achim@2x.jpg 2x" 
+            width="330" height="398"
+            class="lazyload">
+          <figcaption>
+            <span class="name">Achim Steiner</span><br>
+            {{labels.administrator}}<br>
+            {{labels.undplong}}
+          </figcaption>
+        </figure>
+        <img alt="Achim Steiner signature" 
+            src="{{@root.root}}{{labels.blank}}"
+            data-src="{{@root.root}}assets/img/1-signature-achim.jpg"
+            data-srcset="{{@root.root}}assets/img/1-signature-achim@2x.jpg 2x" width="162" height="66"
+            class="lazyload signature">
+        </div>
+      </div>
+      
     </div>
   </div>
 </div>

@@ -42,8 +42,155 @@ labels:
 #   - Investing in UNDP
 #   - Global, regional, local
 
-cover:
+0-cover:
   title: Strategic Plan 2022–2025
 
-foreword:
+1-foreword:
   title: Foreword
+  text1: >
+    <p>This is a critical moment for the world, and for development.  A planetary emergency and the pandemic have depleted the world’s natural resources and widened poverty and inequality. Up to one billion people could be living in extreme poverty by 2030 unless we seize this opportunity for a decisive push towards the Sustainable Development Goals (SDGs).</p>
+    <p>But this is also a moment of choice: an opportunity to learn from our experience, to do things differently, to aspire to greater shared goals.  This new Strategic Plan 2022-2025 describes how UNDP intends to work together with our partners to deliver what’s required of us in these extraordinary times.  Collaborating across the revitalized UN system and beyond for stronger collective results.  Applying integrated approaches aimed at transformative change.   Supporting governments and communities to rebound from COVID-19 and build forward better.</p>
+    <p>The Strategic Plan is grounded in UNDP’s continued commitment to eradicating poverty, accompanying countries in their pathways towards the SDGs and working towards the Paris Agreement.  It envisions bold goals, making a difference to millions of lives, including through tackling multidimensional poverty, energy access, elections participation and development financing.  It explains how UNDP will develop our six signature solutions – powered by digitalisation, innovation and development financing – for greater impact.  It sets out practical steps towards becoming an even more agile and anticipatory organisation, investing further in our people, business model and operational excellence.</p>
+  text2: >
+    <p>The Plan describes how the combination of our deep local experience and our rich global network, tapping into countries’ knowledge and shared experience, delivers value to our partners.  How we will foster innovation and creativity to help change systems and tackle the hardest challenges standing between us and the SDGs.  All this to scale and accelerate progress towards green, inclusive transitions that empower every last person through greater opportunity and resilience.</p>
+    <p>The Plan is the result of extensive collaboration with our many partners.  I am immensely grateful to them, and to all our UNDP teams, whose contributions have helped produce a Plan that truly reflects the diversity of all the countries, communities and people whom UNDP serves.</p>
+    <p>I invite you to read the Plan itself and learn more.  With your support and collaboration, together UNDP can work with countries to expand people’s choices for a fairer, sustainable future, to build the world envisioned by Agenda 2030 with planet and people in balance.</p>
+    
+
+2-strategicContext:
+  title: Strategic context
+  subtitle: Advancing the future of development
+  text: >
+    <p>The challenge of reaching Agenda 2030 was already significant, even before the COVID-19 pandemic hit. Compounded by a climate emergency, political polarization and challenged multilateralism, continued conflicts and forced displacement, the number of people living in poverty rose in 2020 for the first time since 1998 by an estimated 119-124 million. Inequalities are growing, and the traditional social contract is no longer working for many.</p>
+    <p>Today’s development challenges are dynamic, interconnected puzzles of multidimensional risk that require systemic solutions. Multilateral cooperation is vital in addressing these shared challenges that cross boundaries of geography and time.</p>
+    <p>No country has yet achieved the combination of very high human development with a light ecological footprint. The impacts of climate change and biodiversity loss are growing. In this complex, uncertain landscape, the SDGs and the Paris Agreement offer clarity of purpose and a way forward.</p>
+    <p>In the next four years, UNDP will work with countries to make a difference to millions of lives:</p>
+  modules:
+    - icon: 2.1-icon
+      lead: Helping
+      title: 100 million people
+      text: to escape multidimensional poverty
+    - icon: 2.2-icon
+      lead: Supporting
+      title: 500 million people
+      text: to gain access to clean energy
+    - icon: 2.3-icon
+      lead: Supporting
+      title: 800 million people
+      text: to participate in elections, many for the first time
+    - icon: 2.4-icon
+      lead: Promoting
+      title: over US$1 trillion
+      text: of public expenditure and private capital investment in the SDGs 
+
+3-whatWeDo:
+  title: What We Do
+  subtitle: UNDP’s development offer
+
+3-1-directionsOfChange:
+  frameworkSectionHeader:
+    numeral: 3
+    title: Directions of change
+    subtitle: Guiding people and planet beyond 2025
+    text: >
+      <p>During this Plan and beyond, UNDP will be accompanying countries towards the SDGs through country programmes, driven by national development choices, and with poverty eradication at their core.</p>
+      <p>To this end, we support countries in pursuing three directions of systemic change:</p>
+  modules:
+    - icon: 3.1-icon-1
+      title: Structural transformation
+      text: >
+        including green, inclusive and digital transitions: working with countries to effect change in systems and structures that shape a country’s sustainable development
+    - icon: 3.1-icon-2
+      title: Leaving no-one behind
+      text: a rights-based approach centered on empowerment, inclusion, equity, human agency and human development
+    - icon: 3.1-icon-3
+      title: Building resilience
+      text: strengthening countries and institutions to prevent, mitigate and respond to crisis, conflict, natural disasters, climate and social and economic shocks
+
+3-2-signatureSolutions:
+  frameworkSectionHeader:
+    numeral: 6
+    title: Signature Solutions
+    subtitle: Supercharged for greater results
+    text: >
+      <p>Learning from the experience of the last four years, UNDP will:</p>
+      <ul>
+        <li>Prioritize where country demands are greatest</li>
+        <li>Focus on UNDP’s strongest capabilities and role within the UN system </li>
+        <li>Refine and develop the signature solutions for greater impact and scale</li>
+        <li>Deliver integrated solutions through a systems approach</li>
+      </ul>
+  modules:
+    - icon: 3.2-icon-1
+      title: Poverty and inequality
+      text: Tackling inequality of opportunities by investing in the enhanced capabilities people need to move above the poverty line and keep moving forwards.
+    - icon: 3.2-icon-2
+      title: Governance
+      text: Helping countries address emerging complexities by “future-proofing” governance systems through anticipatory approaches and better management of risk.
+    - icon: 3.2-icon-3
+      title: Resilience
+      text: Supporting countries and communities in building resilience to diverse shocks and crises, including conflict, climate change, disasters and epidemics.
+    - icon: 3.2-icon-4
+      title: Environment
+      text: Putting nature and the environment at the heart of national economies and planning; helping governments protect, manage and value their natural assets.
+    - icon: 3.2-icon-5
+      title: Energy
+      text: Increasing energy access for those furthest behind and accelerating the transition to renew-able energy.
+    - icon: 3.2-icon-6
+      title: Gender equality
+      text: Confronting the structural obstacles to gender equality and strengthening women’s economic empowerment and leadership.
+
+3-3-enablers:
+  frameworkSectionHeader:
+    numeral: 3
+    title: Enablers
+    subtitle: Maximising development impact
+    text: >
+      <p>Enablers are capacities and approaches to scale-up development impact for country partners and within UNDP’s own systems:</p>
+  modules:
+    - icon: 3.3-icon-1
+      title: Digitalisation
+      text: >
+        Supporting countries to build inclusive, ethical and sustainable digital societies
+    - icon: 3.3-icon-2
+      title: Strategic innovation
+      text: Empowering governments and communities to enhance the performance of entire systems, making them adaptive and resilient
+    - icon: 3.3-icon-3
+      title: Development financing
+      text: Partnering with governments and the private sector to align public and private capital flows with the SDGs and mobilise finance at scale
+
+4-partnerships:
+  title: Global partnerships
+  subtitle: Forging connections for the SDGs
+  text: >
+    <p>Delivering results at the speed and scale needed to reach Agenda 2030 depends on close partnerships with a diverse range of actors working towards common goals. UNDP’s longstanding partnerships leverage the diverse capabilities, resources and knowledge of our partners.</p>
+    <p>The next four years will see UNDP strengthening these existing partnerships and forging new ones. Using our convening power to continue building strategic alliances with marginalized voices and empowering local actors.</p>
+    <p>The partnerships of the future require flexible instruments, modalities and funding, better suited to new types of partners or new ways of collaborating (e.g., “creative commons” approaches towards sharing intellectual property).</p>
+    <p>UNDP will also work with partners to advocate for, and facilitate, global and regional cooperation around common challenges – from pandemics to conflict to green transitions – while showcasing the value of multilateral solutions.</p>
+    
+5-unSystem:
+  title: A strong partner in the UN system
+  subtitle: Complementing our capabilities
+  text: As we work with partners across the UN system, we draw on each other’s complementary strengths and capabilities to deliver stronger results. 
+  modules:
+    - icon: 5-icon-1
+      text: With the United Nations Development System to deliver coherent and integrated development solutions, driven by country demand, that maximise collective results and impact
+    - icon: 5-icon-2
+      text: As technical lead of the UN’s socio-economic response to the COVID-19 pandemic
+    - icon: 5-icon-3
+      text: Working with governments and partners under the leadership of the World Health Organisation and UNICEF to support COVID-19 vaccine preparedness and deployment
+    - icon: 5-icon-4
+      text: With UN Volunteers, United Nations Multi-Partner Trust Fund, UN Office for South-South Cooperation, and United Nations Capital Development Fund to reinforce the revitalized development system
+    - icon: 5-icon-5
+      text: Connecting partners to UNDP expertise and experience across country, regional and global teams through the Global Policy Network
+
+6-betterneverstops:
+  title: Better never stops
+  subtitle: Building from lessons learned
+  text: >
+    <p>The Strategic Plan 2018-2021 set out an ambitious agenda: to transform UNDP into a more nimble, innovative thought leader, more effective and efficient at delivering results, a trusted partner for countries in reaching the SDGs.</p>
+    <p>The Strategic Plan 2022-2025 continues in this direction, building on the progress of the last four years. It draws on assessments, evaluations and audits, and on the lessons of experience, including from our COVID-19 response.</p>
+    <p>Conversations with diverse practitioners and thought leaders from government, civil society, the private sector, the UN system and UNDP staff worldwide have also enriched the Plan.</p>
+    <p>Key lessons to which the Plan responds include:</p>
+
+

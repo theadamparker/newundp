@@ -18,21 +18,21 @@
           </a>
         </div>
       </div>
-      <div class="medium-2 small-10 cell">
-        <ul class="dropdown menu align-right" data-dropdown-menu>
-          <li class="menu-text"></li>
-          <li>
-            <a href="#"><img src="{{@root.root}}assets/img/0-languages-icon.svg" width="46" alt=""></a>
-            <ul class="menu align-right">
-              <li><a href="{{@root.root}}assets/UNDP-Annual-Report-2020-ar.pdf" dir="rtl" lang="ar"><img src="{{@root.root}}assets/img/0-pdf.svg" height="12" alt="" class="pdf"> عربي </a></li>
-              <li><a href="{{@root.root}}assets/UNDP-Annual-Report-2020-zh.pdf" lang="zh">中文 <img src="{{@root.root}}assets/img/0-pdf.svg" height="12" alt="" class="pdf"></a></li>
-              <li><a href="{{@root.root}}" lang="en"><b>English</b></a></li>
-              <li><a href="{{@root.root}}fr/" lang="fr"><b>Français</b></a></li>
-              <li><a href="{{@root.root}}assets/UNDP-Annual-Report-2020-ru.pdf" lang="ru">Русский <img src="{{@root.root}}assets/img/0-pdf.svg" height="12" alt="" class="pdf"></a></li>
-              <li><a href="{{@root.root}}es/" lang="es"><b>Español</b></a></li>
-            </ul>
-          </li>
-        </ul>
+      <div class="shrink cell">
+        <div id="language-switcher" data-toggler=".expanded">
+          <button data-toggle="language-switcher">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24.63" height="25.239"><g data-name="Group 561" fill="none" stroke="currentColor" stroke-width="1.5"><path data-name="Union 1" d="M16.599 23.688a6.619 6.619 0 001.751-4.752H.75V.75h23.13v14.718l-.005.006v.142c.03 4.662-6.669 8.872-7.7 8.872-.254 0-.171-.248.424-.8z"/><g data-name="Group 559"><path data-name="Path 815" d="M13.585 13.542l3.358-8.09 3.271 8.09" stroke-linecap="round" stroke-linejoin="round"/><path data-name="Path 816" d="M15.058 10.67h3.928"/></g><g data-name="Group 560" stroke-linecap="round"><path data-name="Path 824" d="M4.131 6.767h6.544"/><path data-name="Path 825" d="M4.131 13.166s5.467.471 5.795-6.258"/><path data-name="Path 826" d="M10.827 13.542s-4.446-.477-5.608-4.426"/><path data-name="Path 827" d="M7.407 4.086v2.477"/></g></g></svg>
+            <span>{{#ifequal this.lang "en"}}English{{/ifequal}}
+            {{#ifequal this.lang "es"}}Español{{/ifequal}}
+            {{#ifequal this.lang "fr"}}Français{{/ifequal}}</span>
+            <svg height="7.497" width="10.529" xmlns="http://www.w3.org/2000/svg"><path d="m.584.47 4.682 5.829 4.68-5.829" fill="none" stroke="currentColor" stroke-width="1.5"></path></svg>
+          </button>
+          <ul class="vertical menu">
+            {{#ifequal this.lang "en"}}{{else}}<li><a href="{{@root.root}}">English</a></li>{{/ifequal}}
+            {{#ifequal this.lang "es"}}{{else}}<li><a href="{{@root.root}}es/">Español</span></a></li>{{/ifequal}}
+            {{#ifequal this.lang "fr"}}{{else}}<li><a href="{{@root.root}}fr/">Français</span></a></li>{{/ifequal}}
+          </ul>
+        </div>
       </div>
     </div>
   </div>

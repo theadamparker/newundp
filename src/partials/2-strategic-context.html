@@ -1,27 +1,27 @@
-<div class="blue-gradient padded">
-
+<div class="section-2-strategic-context padded">
   <div class="grid-container">
-    <div class="grid-x grid-padding-x align-center">
-      <div class="small-12 medium-6 cell text-center">
-        <h2>{{02-undp2020.title}}</h2>
-        <h3>{{02-undp2020.subtitle}}</h3>
-        <p>&nbsp;</p>
+    <div class="grid-x grid-padding-x">
+      <div class="small-12 medium-6 medium-offset-1 cell">
+        <h2>{{2-strategicContext.title}}</h2>
+        <h3>{{2-strategicContext.subtitle}}</h3>
+        {{{2-strategicContext.text}}}
       </div>
-      <div class="cell text-center container">
-
+      <div class="small 12 medium-10 medium-offset-1 cell text-center container padded">
         <!-- Slider main container -->
         <div data-shadow-class="swiper-container" data-swiperjs>
           <!-- Additional required wrapper -->
-          <div class="grid-x grid-padding-x medium-up-3 large-up-5 align-center" data-shadow-class="swiper-wrapper" data-equalizer data-equalize-on="large" data-equalize-by-row="true">
+          <div class="grid-x grid-padding-x medium-up-4 align-center" data-shadow-class="swiper-wrapper" data-equalizer data-equalize-on="medium" data-equalize-by-row="true">
               <!-- Slides -->
-              {{#each 02-undp2020.cards}}
-              <div class="cell" data-shadow-class="swiper-slide">
-                <p data-equalizer-watch>
-                  <img src="{{{../labels.blank}}}" class="icon_02 {{class}}" alt="">
-                </p>
-                <div>{{lead}}</div>
-                <div class="lead uppercase text-bold">{{{title}}}</div>
-                <p>{{subtitle}}</p>
+              {{#each 2-strategicContext.modules}}
+              <div class="cell module" data-shadow-class="swiper-slide">
+                <div data-equalizer-watch>
+                  <img 
+                    src="{{@root.root}}assets/img/{{icon}}.svg"
+                    alt="">
+                </div>
+                <div class="lead">{{lead}}</div>
+                <div class="title">{{{title}}}</div>
+                <p class="smallText">{{text}}</p>
               </div>
               {{/each}}
           </div>

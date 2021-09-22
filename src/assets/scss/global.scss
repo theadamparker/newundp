@@ -1,9 +1,16 @@
 h2 {
-  font-weight: map-get($map: $font-weights, $key: black);
+  font-weight: 700;
   line-height: 1.125;
   + h3 {
     margin-top: -$header-margin-bottom;
     line-height: 1;
+  }
+}
+
+p {
+  font-size: rem-calc(16);
+  @include breakpoint(medium) {
+    font-size: rem-calc(20);
   }
 }
 

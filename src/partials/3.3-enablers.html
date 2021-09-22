@@ -1,39 +1,44 @@
-<div class="section-06-leadership padded" id="toc3" data-magellan-target="toc3">
-
+<div class="section-3-3-enablers">
+  <div class="frameworkSectionHeader">
+    <div class="frameworkSectionHeader__half">
+      <div class="frameworkSectionHeader__numeral">
+        {{{ 3-3-enablers.frameworkSectionHeader.numeral }}}
+      </div>
+      <div>
+        <h3>{{ 3-3-enablers.frameworkSectionHeader.title }}</h3>
+        <h5>{{ 3-3-enablers.frameworkSectionHeader.subtitle }}</h5>
+      </div>
+    </div>
+    <div class="frameworkSectionHeader__half">
+      <div class="frameworkSectionHeader__text">
+        {{{ 3-3-enablers.frameworkSectionHeader.text }}}
+      </div>
+    </div>
+  </div>
   <div class="grid-container">
-    <div class="grid-x grid-padding-x align-center">
-      <div class="cell text-center medium-8">
-        <h2>{{06-leadership.title}}</h2>
-        <p>{{{06-leadership.text}}}</p>
-      </div>
-    </div>
-    
-  </div>
-  <div class="cell text-center container leadersWrap">
-    <!-- Slider main container -->
-    <div data-shadow-class="swiper-container" data-swiperjs>
-      <!-- Additional required wrapper -->
-      <div class="grid-x grid-padding-x medium-up-3 align-center" data-shadow-class="swiper-wrapper" data-equalizer
-        data-equalize-on="large" data-equalize-by-row="true">
-        <!-- Slides -->
-        {{#each 06-leadership.leaders}}
-        <div class="cell bio" data-shadow-class="swiper-slide bio">
-          <img alt="{{05-macro-micro.icon.alt}}" src="{{@root.root}}{{labels.blank}}"
-            data-src="{{@root.root}}assets/img/{{img}}@2x.jpg" class="lazyload">
-          <div class="lead text-bold">{{name}}</div>
-          <p>{{title}}</p>
+    <div class="grid-x grid-padding-x photoBG padded">
+      <div class="small-12 medium-10 medium-offset-1 cell text-center container">
+        <!-- Slider main container -->
+        <div data-shadow-class="swiper-container" data-swiperjs>
+          <!-- Additional required wrapper -->
+          <div class="grid-x grid-padding-x medium-up-3 align-center" data-shadow-class="swiper-wrapper" data-equalizer data-equalize-on="medium" data-equalize-by-row="true">
+              <!-- Slides -->
+              {{#each 3-3-enablers.modules}}
+              <div class="cell module" data-shadow-class="swiper-slide">
+                <div data-equalizer-watch>
+                  <img 
+                    src="{{@root.root}}assets/img/{{icon}}.svg"
+                    alt="">
+                </div>
+                <div class="title">{{{title}}}</div>
+                <p class="smallText">{{{ text }}}</p>
+              </div>
+              {{/each}}
+          </div>
         </div>
-        {{/each}}
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </div>
     </div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
   </div>
-  <div class="grid-container footnoteText">
-    <div class="grid-x align-center">
-      <div class="small-10 medium-6 text-center">{{{06-leadership.footnoteText}}}</div>
-    </div>
-  </div>
-  
-
 </div>

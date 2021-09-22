@@ -1,4 +1,24 @@
+// Color
+$gray-100: #FAFAFA;
+$gray-200: #F7F7F7;
+$gray-600: #55606E;
+$blue-600: #006EB5;
+
+
+// Typography
 $sohne: "SohneBreit", sans-serif;
+
+h2 {
+  font-size: rem-calc(40);
+  line-height: 1.09;
+  @include breakpoint(medium) {
+    font-size: rem-calc(45);
+  }
+  @include breakpoint(large) {
+    font-size: rem-calc(55);
+  }
+}
+
 
 /* SohneBreit */
 
@@ -145,450 +165,289 @@ header {
 1. Foreword
 *****************************/
 
-.section-01-foreword {
-  background: url('../img/1-bg.jpg') center no-repeat;
-  background-size: cover;
+.section-1-foreword {
   margin: 0;
 
-  .blendModeMultiply {
-    mix-blend-mode: multiply;
-  }
-}
-
-.section-04-fought-virus {
-  background: linear-gradient(180deg, rgba(97,80,227,1) 0%, rgba(115,0,176,1) 100%);
-  color: $white;
-  position: relative;
-  margin: 0;
-
-  &::after {
-    content: '';
-    background: url('../img/04-virus-icon.png') top right no-repeat;
-    position: absolute;
-    top: 0;
-    z-index: 0;
-    width: 100%;
-    height: 100%;
-    background-size: 50%;
-    @include breakpoint(medium) {
-      background-size: 30%;
-    }
+  .bgLightGray {
+    background: $gray-200;
+    padding-bottom: 32px;
   }
 
-  .icon {
-    margin-bottom: 1rem;
-  }
-  
-  // this keeps the virus BG image from overlapping all section content
-  >.grid-container {
-    position: relative;
-    z-index: 1;
-  }
-  a {
-    color: $white;
-    font-weight: $global-weight-bold;
-    text-decoration: underline;
-    &:hover {
-      text-decoration: none;
-    }
-  }
-  .subSection {
-    margin-bottom: 80px;
-  }
-}
-
-.section-05-sdgs {
-  background: linear-gradient(45deg, rgba(217,0,67,1) 0%, rgba(242,142,71,1) 100%);
-  margin: 0;
-  color: $white;
-  position: relative;
-  .sdgIcon-05 {
-    transform: translate(-50%,50%);
-    margin: 0 auto;
-    display: block;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-  }
-}
-
-.section-06-leadership {
-  padding-top: 150px;
-  @include breakpoint(medium) {
-    padding-top: 200px;
-  }
-  .leadersWrap {
-    max-width: 75rem; // is there a variable for this?
-    margin: 2rem auto 0;
-  }
-  .bio {
+  figure {
     img {
-      margin-bottom: 1.5rem;
-
-      @include breakpoint(medium) {
-        margin-top: 2rem;
-      }
+      width: 100%;
+      margin-bottom: 32px;
     }
   }
-  .footnoteText {
-    margin-top: 3rem;
+  figcaption{
+    margin: 0 24px 16px;
+  }
+
+  .signature {
+    mix-blend-mode: multiply;
+    margin: 0 24px;
+    max-width: 100%;
+  }
+
+  .name {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 12px;
   }
 }
 
-.section-07-people {
-  background: #EBF2FF;
+/*****************************
+2. Strategic Context
+*****************************/
 
-  .postcard {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
+.section-2-strategic-context {
+  background: url('../img/2-strategic-context-bg.jpg') center no-repeat;
+  background-size: cover;
 
-    &::before {
-      content: '';
-      position: absolute;
-      z-index: 2;
-      top: -20px;
-      left: -20px;
-      width: 0;
-      height: 0;
-      border-style: solid;
-      border-width: 100px 100px 0 0;
-      border-color: #EBF2FF transparent transparent transparent;
-      filter: drop-shadow(10px 10px 4px rgba(0,0,0,.3));
-    }
-    &::after {
-      content: '';
-      position: absolute;
-      z-index: 2;
-      bottom: -20px;
-      right: -20px;
-      width: 0;
-      height: 0;
-      border-style: solid;
-      border-width: 100px 100px 0 0;
-      border-color: #EBF2FF transparent transparent transparent;
-      filter: drop-shadow(10px 10px 4px rgba(0,0,0,.3));
-      transform: rotate(180deg);
-    }
-
-    h2 {
-      font-size: rem-calc(45);
-      line-height: 1;
-    }
-    h3 {
-      font-size: rem-calc(23);
-      font-weight: 700;
-    }
-    p {
-      font-size: rem-calc(20);
-    }
-  }
-
-  .postcard__quadrant {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: $white;
-    align-items: center;
-    min-height: 400px;
-
-    @include breakpoint(medium) {
-      width: 50%;
-      flex-direction: row;
-    }
-
+  .module{
     &:nth-of-type(1) {
-      background: linear-gradient(#E4B631, #ED3F2B);
+      .title {
+        color: #EA0A8C;
+      }
     }
     &:nth-of-type(2) {
-      background: linear-gradient(#1528B3, #971C80);
+      .title {
+        color: #A94E9D;
+      }
     }
     &:nth-of-type(3) {
-      background: linear-gradient(#3FAC00, #154869);
+      .title {
+        color: #355DAB;
+      }
     }
     &:nth-of-type(4) {
-      background: linear-gradient(#E4BF18, #779C0E);
-    }
-
-  }
-
-  .postcard__text,
-  .postcard__image {
-    width: 100%;
-
-    @include breakpoint(medium) {
-      width: 50%;
-    }
-
-    @include breakpoint(small only) {
-      min-height: 300px;
-    }
-  }
-
-  .postcard__text {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  // text comes after image in the bottom row
-  .three, 
-  .four {
-    .postcard__text {
-      @include breakpoint(medium) {
-        order: 2;
+      .title {
+        color: #2AACE2;
       }
     }
   }
+}
 
-  .one, .two, .three, .four {
-    .postcard__image {
-      background: cover center no-repeat;
-    }
-  }
+/*****************************
+3. What we do
+*****************************/
 
-  .swiper h2 {
-    margin-bottom: 0;
-  }
-
-  .icon {
-    margin-bottom: 1.5rem;
-  }
-
-  .introText {
-    margin-bottom: 2rem;
-
-    @include breakpoint(medium) {
-      margin-bottom: 5rem;
-    }
-  }
-
-  .redSection {
-    .lead,
-    h2 {
-      color: #C03B1E;
-    }
-  }
-
-  .blueSection {
-    .lead,
-    h2 {
-      color: #62368D;
-    }
-  }
-
-  .swiper-button-prev, .swiper-button-next {
-    color: $black;
-  }
-
-  &.tanSection {
-    background: #F9E7DB;
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-
-  .shieldIcon {
-    margin-bottom: 1rem;
+.section-3-what-we-do {
+  .infographic {
+    width: 100%;
   }
 }
 
-.postcard__image {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  height: 100%;
-  .one & {
-    background-image: url('../img/07-people-quad1.jpg');
+.frameworkSectionHeader {
+  padding: 64px 8.33%;
+  display: flex;
+  flex-direction: column;
+  border-top: 20px solid;
+  @include breakpoint(medium) {
+    padding: 80px 8.33%;
+    flex-direction: row;
   }
-  .two & {
-    background-image: url('../img/07-people-quad2.jpg');
+  .section-3-1-directions-of-change & {
+    border-color: #3AAC92;
+    .frameworkSectionHeader__numeral {
+      color: #3AAC92;
+    }
   }
-  .three & {
-    background-image: url('../img/07-people-quad3.jpg');
+  .section-3-2-signature-solutions & {
+    border-color: #E62F36;
+    .frameworkSectionHeader__numeral {
+      color: #E62F36;
+    }
   }
-  .four & {
-    background-image: url('../img/07-people-quad4.jpg');
+  .section-3-3-enablers & {
+    border-color: #455CA3;
+    .frameworkSectionHeader__numeral {
+      color: #455CA3;
+    }
   }
-}
-
-.section-08-nextgen {
-  background: linear-gradient(#6150E3, #7300B0);
-  color: $white;
-  padding-bottom: 0;
-
-  p a {
-    color: $white;
-  }
-
-  .mapKey {
+  &__half {
     display: flex;
+    flex: 1;
+    vertical-align: top;
     flex-direction: column;
-    justify-content: center;
-    margin-bottom: 80px;
     @include breakpoint(medium) {
       flex-direction: row;
-      margin-bottom: 100px;
+      padding-right: 32px;
+    }
+    &:nth-of-type(2) {
+      @include breakpoint(medium) {
+        border-left: 1px solid $black;
+        padding-left: 32px;
+      }
+      
     }
   }
-
-  .mapKey__column {
-    display: flex;
-    align-items: center;
-    padding: 0 2rem;
-  }
-
-  .mapKey__icon {
-    margin-right: 1rem;
-    margin-bottom: 1rem;
+  &__numeral {
+    font-family: $sohne;
+    font-size: rem-calc(72);
+    line-height: 1;
+    margin-right: 32px;
     @include breakpoint(medium) {
-      margin-bottom: 0;
+      font-size: rem-calc(100);
     }
   }
-
-  .box {
-    display: flex;
-    flex-direction: column;
+  &__text {
+    * {
+      font-size: rem-calc(16);
+      @include breakpoint(medium) {
+        font-size: rem-calc(20);
+      }
+    }
+    ul {
+      margin-left: 32px;
+    }
   }
-
-  .box__header {
-    background: #1DBD94;
-    padding: 1rem 2rem;
-  }
-
-  .box__body {
-    padding: 1rem 2rem;
-    background: #EADAF4;
-    color: #1A243C;
-  }
-
-  .handGraphic {
-    margin-top: 50px;
+  h3 {
+    margin: 16px 0 0px;
+    font-size: rem-calc(35);
+    font-weight: 600;
     @include breakpoint(medium) {
-      margin-top: -50px;
+      font-size: rem-calc(35);
+    }
+  }
+  h5 {
+    font-size: rem-calc(25);
+    @include breakpoint(medium) {
+      font-size: rem-calc(25);
     }
   }
 }
 
-.section-09-hdr {
-  background: #EB5544;
+.section-3-1-directions-of-change,
+.section-3-2-signature-solutions {
+  .photoBG {
+    background: url('../img/3-framework-bg-1.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.section-3-3-enablers {
+  .photoBG {
+    background: url('../img/3-framework-bg-3.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+/*****************************
+4. Global Partnerships
+*****************************/
+
+.section-4-partnerships {
+  background: linear-gradient(180deg, #3950A2 0%, #3950A2 36.09%, #18B576 100%);
   color: $white;
-  padding-bottom: 100px;
-
-  p a {
-    color: $white;
+  .graphic {
+    margin-left: -25%;
+    width: 125%;
+    max-width: none;
   }
 }
 
-.section-10-strategic-plans {
-  .megaGraphic {
-    margin: 0 auto;
-    display: block;
-  }
+/*****************************
+5. UN System
+*****************************/
 
-  .circleSlider,
-  .swiper-slide {
-    height: 100vh;
-  }
+$iconSize: 222px;
 
-  .circleSlider {
-    background: url('../img/5-sdg-icon-bg.jpg') no-repeat center;
-    background-size: 100%;
+.section-5-unsystem {
+  background: $gray-100;
+  .modules {
+    margin-left: 8.33333%;
+  }
+  .module {
+    background: $white;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+    margin-bottom: 64px;
+    padding: 27px 41px 27px $iconSize;
+    border-radius: 69px;
     position: relative;
-  }
-
-  .singleCircle {
-    width: 200px;
-    height: 200px;
-    text-align: center;
-    padding: 1rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    z-index: 2;
-    color: $white;
-
-    &.red {
-      background: linear-gradient(-45deg, #D51928, #D51928);
+    width: 85%;
+    
+    @include breakpoint(medium) {
+      width: 500px;
     }
-    &.blue {
-      background: linear-gradient(-45deg, #02354E, #036A9C);
+    @include breakpoint(large) {
+      width: 700px;
     }
-    &.orange {
-      background: linear-gradient(-45deg, #AC4100, #EF803B);
+    .icon {
+      position: absolute;
+      width: $iconSize;
+      height: $iconSize;
+      left: -25px;
+      top: 50%;
+      transform: translateY(-50%);
     }
-    &.green {
-      background: linear-gradient(-45deg, #1F4023, #3E7F45);
-    }
-    &.gold {
-      background: linear-gradient(-45deg, #A87300, #DE9800);
-    }
-    &.red2 {
-      background: linear-gradient(-45deg, #772016, #EE402C);
-    }
-  }
-
-  .swiper-button-prev, .swiper-button-next {
-    color: $black;
   }
 }
 
-.section-11-signature-solutions {
+/*****************************
+6. Better Never Stops
+*****************************/
 
-  .label {
-    border-radius: 0;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-    padding-left: 1rem;
-    padding-right: 1rem;
+.section-6-betterneverstops {
+  background: url('../img/3-framework-bg-3.jpg') no-repeat;
+  background-size: cover;
+}
+
+/*****************************
+7. Global Regional Local
+*****************************/
+
+/*****************************
+** Other styles
+*****************************/
+
+footer {
+  background: $blue-600;
+  color: $white;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  font-weight: 600;
+  font-size: rem-calc(18);
+  .logo {
+    display: flex;
+    align-items: center;
+    img {
+      width: 50px;
+    }
+    .title {
+      max-width: 230px;
+      margin-left: 25px;
+    }
   }
-  .card {
-    color: $white;
-    margin-bottom: 4rem;
-    cursor: pointer;
-    .card-section {
-      font-size: rem-calc(20);
-      line-height: 1.1;
-      padding-top: 2rem;
-      padding-bottom: 2rem;
-      font-weight: map-get($map: $font-weights, $key: bold);
-      .title {
-        font-size: rem-calc(38);
-        font-weight: map-get($map: $font-weights, $key: black);
+  .sm {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    @include breakpoint(large) {
+      li {
+        flex: 0 1 auto!important;
       }
     }
   }
-  .card-image {
-    position: relative;
-  }
-
-  .text-link {
-    position: absolute;
-    left: 1rem;
-    bottom: 1rem;
-    color: white;
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: bold;
-    align-items: center;
-    display: flex;
-    text-transform: uppercase;
-    padding: .5rem 1rem;
-
-    &:hover {
-      text-decoration: underline;
+  .menu {
+    width: 100%;
+    li:first-of-type
+    a {
+      padding-left: 0;
+    }
+    img {
+      width: 22px;
+    }
+    @include breakpoint(large) {
+      justify-content: flex-end;
+      li {
+        flex: 0 1 auto!important;
+      }
     }
   }
-  
+  .copyright {
+    font-size: rem-calc(13);
+  }
 }
 
 $solutions: (

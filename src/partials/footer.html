@@ -1,44 +1,31 @@
-<footer class="dark-blue padded">
-    <div class="grid-container">
-      <div class="grid-x align-center-middle">
-        <div class="small-2 large-1 cell">
-          <a href="https://www.undp.org">
-            <img src="{{@root.root}}assets/img/{{logo-white}}" width="42" alt="{{labels.undp}} logo">
-          </a>
-        </div>
-        <div class="large-auto cell download show-for-large">
-          <div class="button-group">
-            <a class="button" href="{{@root.root}}assets/UNDP-Annual-Report-2020-en.pdf">{{labels.downloadreport}}</a>
-            <a class="button" href="{{@root.root}}assets/UNDP-Annual-Report-2020-en.pdf">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1rem" height="1rem" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><path d="M24.59 16.59L17 24.17V2h-2v22.17l-7.59-7.58L6 18l10 10l10-10l-1.41-1.41z" fill="#FFFFFF"/></svg>
-            </a>
-          </div>
-        </div>
-        <div class="show-for-medium medium-8 large-4 cell">
-          <ul class="menu expanded">
-          <li>
-            <a href="https://twitter.com/UNDP" target="_blank">
-              <img src="{{@root.root}}assets/img/29-icon-twitter.svg" width="33" alt="Twitter">
-            </a>
-          </li>
-          <li>
-            <a href="https://facebook.com/UNDP" target="_blank">
-              <img src="{{@root.root}}assets/img/29-icon-facebook.svg" width="16" alt="Facebook">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/company/UNDP/" target="_blank">
-              <img src="{{@root.root}}assets/img/29-icon-linkedin.svg" width="33" alt="LinkedIn">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/UNDP/" target="_blank">
-              <img src="{{@root.root}}assets/img/29-icon-instagram.svg" width="33" alt="Instagram">
-            </a>
-          </li>
-        </ul>
+<footer>
+
+  <div class="grid-container">
+
+    <div class="grid-x grid-margin-x">
+      <div class="small-12 large-6 cell logo">
+        <a href="https://www.undp.org"><img src="{{@root.root}}assets/img/{{logo-white}}" alt="{{labels.undp}} logo"></a>
+        <div class="title">
+          {{labels.undplong}}
         </div>
       </div>
+      <div class="small-12 large-6 cell sm">
+        <ul class="expanded menu">
+          <li><a href="https://www.facebook.com/UNDP" target="_blank"><img src="{{@root.root}}assets/img/Facebook@2x.png" alt=""></a></li>
+          <li><a href="https://twitter.com/UNDP/" target="_blank"><img src="{{@root.root}}assets/img/Twitter@2x.png" alt=""></a></li>
+          <li><a href="https://www.instagram.com/UNDP/" target="_blank"><img src="{{@root.root}}assets/img/Instagram@2x.png" alt=""></a></li>
+          <li><a href="https://www.linkedin.com/company/undp/" target="_blank"><img src="{{@root.root}}assets/img/Linkedin@2x.png" alt=""></a></li>
+          <li><a href="https://www.youtube.com/UNDP/" target="_blank"><img src="{{@root.root}}assets/img/Youtube@2x.png" alt=""></a></li>
+        </ul>
+      </div>
+      <div class="cell copyright">
+        <hr>
+        <p>
+          Copyright &copy; {{labels.undp}} 2021
+        </p>
+      </div>
     </div>
+
+  </div>
+
 </footer>
-  

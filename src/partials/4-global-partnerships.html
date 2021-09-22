@@ -1,99 +1,17 @@
-
-<div class="section-07-people padded">
+<div class="section-4-partnerships padded">
   <div class="grid-container">
-    <div class="grid-x grid-padding-x section">
-      <div class="small-12 cell">
-        <h2>{{07-people.title}}</h2>
-        <h3>{{07-people.subtitle}}</h3>
-        {{{07-people.text}}}
+    <div class="grid-x grid-padding-x align-middle section">
+      <div class="small-12 medium-6 small-order-2 medium-order-1 cell">
+        <img alt="" 
+            src="{{@root.root}}{{labels.blank}}"
+            data-src="{{@root.root}}assets/img/4-partnerships-graphic.png"
+            data-srcset="{{@root.root}}assets/img/4-partnerships-graphic@2x.png 2x" width="826" height="539"
+            class="graphic lazyload">
       </div>
-    </div>
-  </div>
-  <div class="grid-container">
-    <div class="postcard">
-      {{#each 07-people.postcard.quadrants}}
-      <div class="postcard__quadrant {{quadrant}}">
-        <div class="postcard__text">
-          <div class="lead uppercase text-bold">{{lead}}</div>
-          <h2 class="uppercase text-bold">{{{title}}}</h2>
-          <h3 class="uppercase">{{subtitle}}</h3>
-          <p>{{text}}</p>
-        </div>
-        <div class="postcard__image"></div>
-      </div>
-      {{/each}}
-    </div>
-  </div>
-  <div class="grid-container swiper">
-    <div class="grid-x grid-padding-x section">
-      <div class="small-12 medium-6 cell redSection">
-        <div class="introText">
-          {{{07-people.text1}}}
-        </div>
-        <div class="cell text-center container">
-          <!-- Slider main container -->
-          <div data-shadow-class="swiper-container" data-swiperjs>
-            <!-- Additional required wrapper -->
-            <div class="grid-x grid-padding-x medium-up-2 align-center" data-shadow-class="swiper-wrapper" data-equalizer data-equalize-on="large" data-equalize-by-row="true">
-                <!-- Slides -->
-                {{#each 07-people.cards1}}
-                <div class="cell" data-shadow-class="swiper-slide">
-                  <img alt="icon" src="{{@root.root}}{{labels.blank}}" 
-                    data-src="{{@root.root}}assets/img/{{image}}.svg" 
-                    class="lazyload icon">
-                  <div class="lead uppercase text-bold">{{lead}}</div>
-                  <h2>{{{title}}}</h2>
-                  <div class="lead uppercase text-bold">{{subtitle}}</div>
-                  <p>{{text}}</p>
-                </div>
-                {{/each}}
-            </div>
-          </div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-        </div>
-      </div>
-      <div class="small-12 medium-6 cell blueSection">
-        <div class="introText">
-          {{{07-people.text2}}}
-        </div>
-        <div class="cell text-center container">
-          <!-- Slider main container -->
-          <div data-shadow-class="swiper-container" data-swiperjs>
-            <!-- Additional required wrapper -->
-            <div class="grid-x grid-padding-x medium-up-2 align-center" data-shadow-class="swiper-wrapper" data-equalizer data-equalize-on="large" data-equalize-by-row="true">
-                <!-- Slides -->
-                {{#each 07-people.cards2}}
-                <div class="cell" data-shadow-class="swiper-slide">
-                  <img alt="icon" src="{{@root.root}}{{labels.blank}}" 
-                    data-src="{{@root.root}}assets/img/{{image}}.svg" 
-                    class="lazyload icon">
-                  <div class="lead uppercase text-bold">{{lead}}</div>
-                  <h2>{{{title}}}</h2>
-                  <div class="lead uppercase text-bold">{{subtitle}}</div>
-                  <p>{{text}}</p>
-                </div>
-                {{/each}}
-            </div>
-          </div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="section-07-people tanSection">
-  <div class="grid-container">
-    <div class="grid-x grid-padding-x">
-      <div class="small-12 medium-3 medium-offset-1 cell">
-        <img alt="{{07-people.bottomSection.img.alt}}" src="{{@root.root}}{{labels.blank}}" 
-          data-src="{{@root.root}}assets/img/07-shield-icon.svg" 
-          class="lazyload shieldIcon">
-      </div>
-      <div class="small-12 medium-7 cell">
-        <h2>{{07-people.bottomSection.title}}</h2>
-        <p>{{07-people.bottomSection.text}}</p>
+      <div class="small-12 medium-5 small-order-1 medium-order-2 cell">
+        <h2>{{4-partnerships.title}}</h2>
+        <h3>{{4-partnerships.subtitle}}</h3>
+        {{{4-partnerships.text}}}
       </div>
     </div>
   </div>

@@ -1,110 +1,22 @@
-<div class="section-08-nextgen padded" id="toc4" data-magellan-target="toc4">
-  <div class="grid-container">
-    <div class="grid-x grid-padding-x section">
-      <div class="small-12 cell">
-        <h2>{{{08-nextgen.title}}}</h2>
-        <h3>{{{08-nextgen.subtitle}}}</h3>
-        {{{08-nextgen.text}}}
-      </div>
-    </div>
-  </div>
-  <div class="grid-container">
-    <div class="grid-x grid-padding-x section">
-      <div class="small-12 cell">
-        <h3>{{{08-nextgen.section2.heading}}}</h3>
-        <p>{{{08-nextgen.section2.text}}}</p>
-      </div>
-      <div class="cell text-center container">
-        <!-- Slider main container -->
-        <div data-shadow-class="swiper-container" data-swiperjs>
-          <!-- Additional required wrapper -->
-          <div class="grid-x grid-padding-x medium-up-5 align-center" data-shadow-class="swiper-wrapper" data-equalizer data-equalize-on="large" data-equalize-by-row="true">
-              <!-- Slides -->
-              {{#each 08-nextgen.section2.cards}}
-              <div class="cell" data-shadow-class="swiper-slide">
-                <img alt="icon" src="{{@root.root}}{{labels.blank}}" 
-                  data-src="{{@root.root}}assets/img/{{image}}.svg" 
-                  class="lazyload icon">
-                <div class="lead">{{lead}}</div>
-                <div class="lead uppercase text-bold">{{{title}}}</div>
-                <p>{{text}}</p>
-              </div>
-              {{/each}}
-          </div>
-        </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      </div>
-    </div>      
-  </div>
-  <div class="grid-container">
-    <div class="grid-x grid-padding-x section">
-      <div class="small-12 cell">
-        <h3>{{{08-nextgen.section3.heading}}}</h3>
-        <p>{{{08-nextgen.section3.text}}}</p>
-      </div>
-      <div class="small-12 cell">
-        <p class="text-center">{{{08-nextgen.section3.chartIntro}}}</p>
-      </div>
-    </div>
-    <div class="mapKey">
-      <div class="mapKey__column">
-        <div class="mapKey__icon">
-          <img alt="icon" src="{{@root.root}}{{labels.blank}}" 
-            data-src="{{@root.root}}assets/img/08-blue-pin.svg" 
-            class="lazyload">
-        </div>
-        <div class="lead text-bold uppercase">
-          {{{08-nextgen.section3.prevLabs}}}
-        </div>
-      </div>
-      <div class="mapKey__column">
-        <div class="mapKey__icon">
-          <img alt="icon" src="{{@root.root}}{{labels.blank}}" 
-            data-src="{{@root.root}}assets/img/08-green-pin.svg" 
-            class="lazyload">
-        </div>
-        <div class="lead text-bold uppercase">
-          {{{08-nextgen.section3.newLabs}}}
-        </div>
-      </div>
-
-    </div>
-    <div class="text-center">
-      <img alt="icon" src="{{@root.root}}{{labels.blank}}" 
-        data-src="{{@root.root}}assets/img/08-map.png" 
-        class="lazyload">
-    </div>
-    <div class="grid-x grid-padding-x section">
-      <div class="small-12 cell">
-        {{{08-nextgen.section3.text2}}}
-      </div>
-    </div>
-  </div>
-  <div class="grid-container">
-    <div class="grid-x grid-padding-x section">
-      <div class="small-12 cell">
-        <h3>{{{08-nextgen.section4.heading}}}</h3>
-        <p>{{{08-nextgen.section4.text}}}</p>
-      </div>
-    </div>
-  </div>
+<div class="section-5-unsystem padded" id="toc4" data-magellan-target="toc4">
   <div class="grid-container">
     <div class="grid-x grid-padding-x">
-      <div class="small-12 medium-4 cell box">
-        <div class="box__header text-bold">
-          {{{08-nextgen.section4.box.title}}}
-        </div>
-        <div class="box__body">
-          <p>{{{08-nextgen.section4.box.text}}}</p>
-        </div>
-      </div>
-      <div class="small-12 medium-7 medium-offset-1 cell">
-        <img alt="" src="{{@root.root}}{{labels.blank}}" 
-          data-src="{{@root.root}}assets/img/08-hand-graphic.png" 
-          data-srcset="{{@root.root}}assets/img/08-hand-graphic@2x.png 2x" 
-          class="lazyload handGraphic">
+      <div class="small-12 medium-6 medium-offset-1 cell">
+        <h2>{{5-unSystem.title}}</h2>
+        <h3>{{5-unSystem.subtitle}}</h3>
+        {{{5-unSystem.text}}}
       </div>
     </div>
+  </div>
+  <div class="modules section">
+    {{#each 5-unSystem.modules}}
+    <div class="module">
+      <img 
+        class="icon"
+        src="{{@root.root}}assets/img/{{icon}}.svg"
+        alt="">
+      {{ text }}
+    </div>
+    {{/each}}
   </div>
 </div>

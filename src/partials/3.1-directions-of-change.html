@@ -1,115 +1,44 @@
-<div class="section-04-fought-virus padded section">
-
-  <div class="grid-container">
-    <div class="grid-x grid-padding-x">
-      <div class="cell text-center">
-        <h2>{{ 04-fought-virus.title }}</h2>
-        <h3>{{ 04-fought-virus.subtitle }}</h3>
-        {{{ 04-fought-virus.text1 }}}
+<div class="section-3-1-directions-of-change">
+  <div class="frameworkSectionHeader">
+    <div class="frameworkSectionHeader__half">
+      <div class="frameworkSectionHeader__numeral">
+        {{{ 3-1-directionsOfChange.frameworkSectionHeader.numeral }}}
       </div>
-      <div class="cell text-center container subSection">
-
-        <!-- Slider main container -->
-        <div data-shadow-class="swiper-container" data-swiperjs>
-          <!-- Additional required wrapper -->
-          <div class="grid-x grid-padding-x medium-up-3 large-up-3 align-center" data-shadow-class="swiper-wrapper"
-            data-equalizer data-equalize-on="large" data-equalize-by-row="true">
-            <!-- Slides -->
-            {{#each 04-fought-virus.cards1}}
-            <div class="cell" data-shadow-class="swiper-slide">
-              <p data-equalizer-watch>
-                <img src="{{{../labels.blank}}}" class="icon_04 {{class}}" alt="">
-              </p>
-              <div>{{lead}}</div>
-              <div class="lead uppercase text-bold">{{{title}}}</div>
-              <p>{{subtitle}}</p>
-            </div>
-            {{/each}}
-          </div>
-        </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+      <div>
+        <h3>{{ 3-1-directionsOfChange.frameworkSectionHeader.title }}</h3>
+        <h5>{{ 3-1-directionsOfChange.frameworkSectionHeader.subtitle }}</h5>
       </div>
-      <div class="cell medium-8 medium-offset-2 text-center">
-        <h3>{{{ 04-fought-virus.heading2 }}}</h3>
-      </div>
-      <div class="cell text-center container subSection">
-
-        <!-- Slider main container -->
-        <div data-shadow-class="swiper-container" data-swiperjs>
-          <!-- Additional required wrapper -->
-          <div class="grid-x grid-padding-x medium-up-3 large-up-5 align-center" data-shadow-class="swiper-wrapper"
-            data-equalizer data-equalize-on="large" data-equalize-by-row="true">
-            <!-- Slides -->
-            {{#each 04-fought-virus.cards2}}
-            <div class="cell" data-shadow-class="swiper-slide">
-              <p data-equalizer-watch>
-                <img src="{{{../labels.blank}}}" class="icon_04 {{class}}" alt="">
-              </p>
-              <div>{{lead}}</div>
-              <div class="lead uppercase text-bold">{{{title}}}</div>
-              <p>{{subtitle}}</p>
-            </div>
-            {{/each}}
-          </div>
-        </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      </div>
-      <div class="cell medium-8 medium-offset-2 text-center">
-        <h3>{{{ 04-fought-virus.heading3 }}}</h3>
-      </div>
-      <div class="cell text-center container subSection">
-
-        <!-- Slider main container -->
-        <div data-shadow-class="swiper-container" data-swiperjs>
-          <!-- Additional required wrapper -->
-          <div class="grid-x grid-padding-x medium-up-3 large-up-5 align-center" data-shadow-class="swiper-wrapper"
-            data-equalizer data-equalize-on="large" data-equalize-by-row="true">
-            <!-- Slides -->
-            {{#each 04-fought-virus.cards3}}
-            <div class="cell" data-shadow-class="swiper-slide">
-              <p data-equalizer-watch>
-                <img src="{{{../labels.blank}}}" class="icon_04 {{class}}" alt="">
-              </p>
-              <div>{{lead}}</div>
-              <div class="lead uppercase text-bold">{{{title}}}</div>
-              <p>{{subtitle}}</p>
-            </div>
-            {{/each}}
-          </div>
-        </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      </div>
-      <div class="cell medium-8 medium-offset-2 text-center">
-        <h3>{{{ 04-fought-virus.heading4 }}}</h3>
-      </div>
-      <div class="cell text-center container subSection">
-
-        <!-- Slider main container -->
-        <div data-shadow-class="swiper-container" data-swiperjs>
-          <!-- Additional required wrapper -->
-          <div class="grid-x grid-padding-x medium-up-3 large-up-5 align-center" data-shadow-class="swiper-wrapper"
-            data-equalizer data-equalize-on="large" data-equalize-by-row="true">
-            <!-- Slides -->
-            {{#each 04-fought-virus.cards4}}
-            <div class="cell" data-shadow-class="swiper-slide">
-              <img class="icon" src="{{@root.root}}assets/img/{{img}}.svg" alt="icon">
-              <div>{{lead}}</div>
-              <div class="lead uppercase text-bold">{{{title}}}</div>
-              <p>{{subtitle}}</p>
-            </div>
-            {{/each}}
-          </div>
-        </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      </div>
-      <div class="cell text-center">
-        {{{ 04-fought-virus.text4 }}}
+    </div>
+    <div class="frameworkSectionHeader__half">
+      <div class="frameworkSectionHeader__text">
+        {{{ 3-1-directionsOfChange.frameworkSectionHeader.text }}}
       </div>
     </div>
   </div>
-
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x photoBG padded">
+      <div class="small-12 medium-10 medium-offset-1 cell text-center container">
+        <!-- Slider main container -->
+        <div data-shadow-class="swiper-container" data-swiperjs>
+          <!-- Additional required wrapper -->
+          <div class="grid-x grid-padding-x medium-up-3 align-center" data-shadow-class="swiper-wrapper" data-equalizer data-equalize-on="medium" data-equalize-by-row="true">
+              <!-- Slides -->
+              {{#each 3-1-directionsOfChange.modules}}
+              <div class="cell module" data-shadow-class="swiper-slide">
+                <div data-equalizer-watch>
+                  <img 
+                    src="{{@root.root}}assets/img/{{icon}}.svg"
+                    alt="">
+                </div>
+                <div class="title">{{{title}}}</div>
+                <p class="smallText">{{{ text }}}</p>
+              </div>
+              {{/each}}
+          </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </div>
 </div>
