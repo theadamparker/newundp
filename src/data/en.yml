@@ -193,4 +193,189 @@ labels:
     <p>Conversations with diverse practitioners and thought leaders from government, civil society, the private sector, the UN system and UNDP staff worldwide have also enriched the Plan.</p>
     <p>Key lessons to which the Plan responds include:</p>
 
+  lessons:
+    - icon: 6-icon-1
+      text: The power of integration
+    - icon: 6-icon-2
+      text: Understanding and managing risk
+    - icon: 6-icon-3
+      text: Modernising operational systems and structures 
+    - icon: 6-icon-4
+      text: Updating programming arrangements and implementation modalities 
+
+7-global:
+  title: Global, regional, local
+  text: >
+    <p>UNDP’s network brings the world together, driving sustainable impact and results for people and planet.</p>
+  regions:
+    - name: Latin America and the Carribean
+      columns: 2
+      items:
+        - name: <b>Panama Regional Hub</b>
+        - name: Argentina
+        - name: Barbados and the Eastern Caribbean (covering Anguilla, Antigua and Barbuda, Barbados, the British Virgin Islands, the Commonwealth of Dominica, Grenada, Montserrat, Saint Lucia, St. Kitts and Nevis, St. Vincent and the Grenadines)
+        - name: Bolivia
+        - name: Brazil
+        - name: Chile
+        - name: Colombia
+        - name: Costa Rica
+        - name: Cuba
+        - name: Dominican Republic
+        - name: Ecuador
+        - name: El Salvador
+        - name: Guatemala
+        - name: Guyana
+        - name: Haiti
+        - name: Honduras
+        - name: Jamaica (covering The Bahamas, Belize, Bermuda, Cayman Islands, Jamaica, Turks and Caicos Islands)
+        - name: Mexico
+        - name: Panama
+        - name: Paraguay
+        - name: Peru
+        - name: Suriname
+        - name: Trinidad and Tobago (covering Aruba, Curacao, Sint Maarten, Trinidad and Tobago)
+        - name: Uruguay
+        - name: Venezuela
+    - name: North America
+      columns: 1
+      items:
+        - name: New York headquarters
+    - name: Africa
+      columns: 2
+      items:
+        - name: <b>Addis Ababa Regional Service Centre</b>
+        - name: Angola
+        - name: Benin
+        - name: Botswana
+        - name: Burkina Faso
+        - name: Burundi
+        - name: Cameroon
+        - name: Cape Verde
+        - name: Central African Republic
+        - name: Chad
+        - name: Comoros
+        - name: Congo (Dem. Republic of)
+        - name: Congo (Republic of)
+        - name: Côte d’Ivoire
+        - name: Equatorial Guinea
+        - name: Eritrea
+        - name: Eswatini
+        - name: Ethiopia
+        - name: Gabon
+        - name: Gambia
+        - name: Ghana
+        - name: Guinea
+        - name: Guinea-Bissau
+        - name: Kenya
+        - name: Lesotho
+        - name: Liberia
+        - name: Madagascar
+        - name: Malawi
+        - name: Mali
+        - name: Mauritania
+        - name: Mauritius and Seychelles
+        - name: Mozambique
+        - name: Namibia
+        - name: Niger
+        - name: Nigeria
+        - name: Rwanda
+        - name: São Tomé and Príncipe
+        - name: Senegal
+        - name: Sierra Leone
+        - name: South Africa
+        - name: South Sudan
+        - name: Tanzania
+        - name: Togo
+        - name: Uganda
+        - name: Zambia
+        - name: Zimbabwe
+    - name: Arab States
+      columns: 2
+      items:
+        - name: <b>Amman Regional Hub</b>
+        - name: Algeria
+        - name: Bahrain
+        - name: Djibouti
+        - name: Egypt
+        - name: Iraq
+        - name: Jordan
+        - name: Kuwait
+        - name: Lebanon
+        - name: Libya
+        - name: Morocco
+        - name: Programme of Assistance of the Palestinian People
+        - name: Saudi Arabia
+        - name: Somalia
+        - name: Sudan
+        - name: Syria
+        - name: Tunisia
+        - name: Yemen
+    - name: Europe and Central Asia
+      columns: 2
+      items:
+        - name: Istanbul Regional Hub
+        - name: Albania
+        - name: Armenia
+        - name: Azerbaijan
+        - name: Belarus
+        - name: Bosnia and Herzegovina
+        - name: Cyprus
+        - name: Georgia
+        - name: Kazakhstan
+        - name: Kosovo (as per UNSCR 1244)
+        - name: Kyrgyzstan
+        - name: Moldova
+        - name: Montenegro
+        - name: North Macedonia
+        - name: Serbia
+        - name: Tajikistan
+        - name: Turkey
+        - name: Turkmenistan
+        - name: Ukraine
+        - name: Uzbekistan
+    - name: Asia and the Pacific 
+      columns: 2
+      items:
+        - name: <b>Bangkok Regional Hub</b>
+        - name: Afghanistan
+        - name: Bangladesh
+        - name: Bhutan
+        - name: Cambodia
+        - name: China
+        - name: Democratic People’s Republic of Korea
+        - name: India
+        - name: Indonesia
+        - name: Iran
+        - name: Lao PDR
+        - name: Malaysia (covering Brunei Darussalam, Malaysia, Singapore)
+        - name: Maldives
+        - name: Mongolia
+        - name: Myanmar
+        - name: Nepal
+        - name: Pacific Office in Fiji (covering Federated States of Micronesia, Fiji, Kiribati, Republic of the Marshall Islands, Nauru, Palau, Solomon Islands, Tonga, Tuvalu, Vanuatu)
+        - name: Pakistan
+        - name: Papua New Guinea
+        - name: Philippines
+        - name: Samoa (covering Samoa, Cook Islands, Niue, Tokelau)
+        - name: Sri Lanka
+        - name: Thailand
+        - name: Timor-Leste
+        - name: Viet Nam
+    - name: Representation Offices
+      columns: 1
+      items:
+        - name: Brussels Representation Office (covering European Union)
+        - name: Geneva Representation Office
+        - name: Nordic Representation Office (covering Denmark, Finland, Norway, Sweden)
+        - name: Tokyo Representation Office
+        - name: Washington Representation Office
+    - name: Policy Centres
+      columns: 1
+      items:
+        - name: Nairobi Global Centre on Resilient Ecosystems and Desertification
+        - name: Oslo Governance Centre
+        - name: Istanbul International Center for Private Sector in Development
+        - name: Seoul Policy Centre for Knowledge Exchange through SDG Partnerships
+        - name: Singapore Global Centre for Technology, Innovation and Sustainable Development
+
 

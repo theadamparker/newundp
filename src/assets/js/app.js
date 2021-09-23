@@ -19,7 +19,7 @@ import './lib/foundation-explicit-pieces';
 // Foundation.plugin(Waves, 'Waves');
 
 // Swiper foundation plugin init
-import {Swiperjs} from './Swiperjs';
+import { Swiperjs } from './Swiperjs';
 Foundation.plugin(Swiperjs, 'Swiperjs');
 
 $(document).foundation();
@@ -27,36 +27,21 @@ $(document).foundation();
 $(() => {
 
   // init smoothscrolling in offcanvas
-  $('#menu a').on('click', function(){
+  $('#menu a').on('click', function () {
     var loc = $(this).attr('href');
-    $('#offCanvas').one('close.zf.offCanvas', function(){
+    $('#offCanvas').one('close.zf.offCanvas', function () {
       Foundation.SmoothScroll.scrollToLoc(loc);
     }).foundation('close');
   });
 
-  $('.lightboxButton').on('click', function() {
-    
-    $(this).toggleClass('active');
-    $('.lightboxWrap').toggleClass('active');
-    $('.hideOnLightbox').toggleClass('hidden');
-    
-  });
+  const $accordion = $('.accordion')
 
-
-  $('.regionSelect__menu .region').on('click', function(){
-    // remove active class from menu and hide content
-    $('.regionSelect__menu a').removeClass('active')
-    $('.regionSelect__panel').removeClass('active')
-
-    // find ID of menu item clicked
-    var activeRegion = $(this).attr('id')
-
-    // add active class to the menu item clicked
-    $(this).addClass('active')
-
-    // add active class to the corresponding content panel
-    $('.regionSelect__contents #' + activeRegion).addClass('active')
-    
-  })
+  if ($accordion.length) {
+    $accordion.find('.accordion-trigger')
+      .click(function () {
+        let $acc = $(this).closest('.accordion')
+        $acc.toggleClass('expanded')
+      })
+  }
 
 });

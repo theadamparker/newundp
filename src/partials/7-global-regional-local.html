@@ -1,35 +1,27 @@
-<div class="section-10-strategic-plans padded section" id="toc6" data-magellan-target="toc6">
-    <div class="grid-container">
-        <div class="grid-x grid-padding-x section">
-            <div class="small-12 cell">
-                <h2>{{10-strategic-plans.title}}</h2>
-                <h3>{{10-strategic-plans.subtitle}}</h3>
-                {{{10-strategic-plans.text}}}
-            </div>
-        </div>
+<div class="section-7-global padded">
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x section">
+      <div class="small-12 medium-9 large-5 medium-offset-1 cell">
+        <h2>{{7-global.title}}</h2>
+        {{{7-global.text}}}
+      </div>
     </div>
-    <div class="circleSlider hide-for-medium">
-        <!-- Slider main container -->
-        <div data-shadow-class="swiper-container" data-swiperjs>
-            <!-- Additional required wrapper -->
-            <div class="grid-x grid-padding-x medium-up-3 align-center" data-shadow-class="swiper-wrapper"
-                data-equalizer data-equalize-on="large" data-equalize-by-row="true">
-                <!-- Slides -->
-                {{#each 10-strategic-plans.topic}}
-                <div data-shadow-class="swiper-slide">
-                    <div class="singleCircle {{class}}">
-                        <div class="lead text-bold">{{name}}</div>
-                        <p>{{text}}</p>
-                    </div>
-                </div>
+    <div class="grid-x grid-padding-x section">
+      <div class="small-12 medium-9 large-5 medium-offset-1 cell accordionWrap faq">
+        {{#each 7-global.regions}}
+        <div class="faq-item question accordion">
+            <button class="question-button accordion-trigger grid-x">
+                <span class="title">{{name}}</span>
+                <span class="arrow-down"><svg xmlns="http://www.w3.org/2000/svg" width="17.59" height="11.633" viewBox="0 0 17.59 11.633"><g transform="translate(0.762 10.09) rotate(-90)"><g transform="translate(892.611 517.347) rotate(180)"><g transform="translate(883.17 501.28)"><path d="M-19204.023,14199.331l9.441,8.031-9.441,8.035" transform="translate(19204.023 -14199.331)" fill="none" stroke="#d12800" stroke-width="2"/></g></g></g></svg></span>
+            </button>
+            <div class="answer column-count-{{columns}}">
+                {{#each items}}
+                <p>{{{name}}}</p>
                 {{/each}}
             </div>
         </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+        {{/each}}
+      </div>
     </div>
-    <div class="planGraphic hide-for-small-only">
-        <img alt="" src="{{@root.root}}{{labels.blank}}" data-src="{{@root.root}}assets/img/{{10-strategic-plans.img}}.png"
-            data-srcset="{{@root.root}}assets/img/{{10-strategic-plans.img}}@2x.png 2x" class="lazyload megaGraphic">
-    </div>
+  </div>
 </div>
