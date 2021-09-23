@@ -43,7 +43,9 @@ labels:
 #   - Global, regional, local
 
 0-cover:
-  title: Strategic Plan 2022–2025
+  title: >
+    Strategic Plan <br>
+    2022–2025
 
 1-foreword:
   title: Foreword
