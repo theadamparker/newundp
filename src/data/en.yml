@@ -215,7 +215,7 @@ labels:
       items:
         - name: <b>Panama Regional Hub</b>
         - name: Argentina
-        - name: Barbados and the Eastern Caribbean (covering Anguilla, Antigua and Barbuda, Barbados, the British Virgin Islands, the Commonwealth of Dominica, Grenada, Montserrat, Saint Lucia, St. Kitts and Nevis, St. Vincent and the Grenadines)
+        - name: Barbados and the Eastern Caribbean <i>(covering Anguilla, Antigua and Barbuda, Barbados, the British Virgin Islands, the Commonwealth of Dominica, Grenada, Montserrat, Saint Lucia, St. Kitts and Nevis, St. Vincent and the Grenadines)</i>
         - name: Bolivia
         - name: Brazil
         - name: Chile
@@ -229,13 +229,13 @@ labels:
         - name: Guyana
         - name: Haiti
         - name: Honduras
-        - name: Jamaica (covering The Bahamas, Belize, Bermuda, Cayman Islands, Jamaica, Turks and Caicos Islands)
+        - name: Jamaica <i>(covering The Bahamas, Belize, Bermuda, Cayman Islands, Jamaica, Turks and Caicos Islands)</i>
         - name: Mexico
         - name: Panama
         - name: Paraguay
         - name: Peru
         - name: Suriname
-        - name: Trinidad and Tobago (covering Aruba, Curacao, Sint Maarten, Trinidad and Tobago)
+        - name: Trinidad and Tobago <i>(covering Aruba, Curacao, Sint Maarten, Trinidad and Tobago)</i>
         - name: Uruguay
         - name: Venezuela
     - name: North America
@@ -315,7 +315,7 @@ labels:
     - name: Europe and Central Asia
       columns: 2
       items:
-        - name: Istanbul Regional Hub
+        - name: <b>Istanbul Regional Hub</b>
         - name: Albania
         - name: Armenia
         - name: Azerbaijan
@@ -349,16 +349,16 @@ labels:
         - name: Indonesia
         - name: Iran
         - name: Lao PDR
-        - name: Malaysia (covering Brunei Darussalam, Malaysia, Singapore)
+        - name: Malaysia <i>(covering Brunei Darussalam, Malaysia, Singapore)</i>
         - name: Maldives
         - name: Mongolia
         - name: Myanmar
         - name: Nepal
-        - name: Pacific Office in Fiji (covering Federated States of Micronesia, Fiji, Kiribati, Republic of the Marshall Islands, Nauru, Palau, Solomon Islands, Tonga, Tuvalu, Vanuatu)
+        - name: Pacific Office in Fiji <i>(covering Federated States of Micronesia, Fiji, Kiribati, Republic of the Marshall Islands, Nauru, Palau, Solomon Islands, Tonga, Tuvalu, Vanuatu)</i>
         - name: Pakistan
         - name: Papua New Guinea
         - name: Philippines
-        - name: Samoa (covering Samoa, Cook Islands, Niue, Tokelau)
+        - name: Samoa <i>(covering Samoa, Cook Islands, Niue, Tokelau)</i>
         - name: Sri Lanka
         - name: Thailand
         - name: Timor-Leste
@@ -366,9 +366,9 @@ labels:
     - name: Representation Offices
       columns: 1
       items:
-        - name: Brussels Representation Office (covering European Union)
+        - name: Brussels Representation Office <i>(covering European Union)</i>
         - name: Geneva Representation Office
-        - name: Nordic Representation Office (covering Denmark, Finland, Norway, Sweden)
+        - name: Nordic Representation Office <i>(covering Denmark, Finland, Norway, Sweden)</i>
         - name: Tokyo Representation Office
         - name: Washington Representation Office
     - name: Policy Centres

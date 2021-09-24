@@ -9,8 +9,10 @@
           src="{{@root.root}}assets/img/3-infographic-{{lang}}.svg" 
           class="lazyload show-for-medium infographic" >
       <img alt="" 
-          src="{{@root.root}}assets/img/3-infographic-{{lang}}-mobile.svg" 
-          class="lazyload show-for-small-only infographic" >
+          src="{{@root.root}}{{labels.blank}}"
+          data-src="{{@root.root}}assets/img/3-infographic-{{lang}}-mobile.jpg"
+          data-srcset="{{@root.root}}assets/img/3-infographic-{{lang}}-mobile@2x.jpg 2x" 
+          class="lazyload show-for-small-only infographic">
     </div>
     <div>
       [INSERT 3x6x3 HERE]

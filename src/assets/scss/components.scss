@@ -167,9 +167,7 @@
   height: auto;
   transform: translateY(-50%);
   margin-top: 0;
-  &:not(.black) {
-    color: $white;
-  }
+  color: #EE402D;
   &:after {
     font-size: 1rem;
   }
@@ -186,8 +184,11 @@
     color: #55606E; // $gray-600
   }
   .title {
-    font-size: rem-calc(25px);
+    font-size: rem-calc(20);
     font-weight: 700;
+    @include breakpoint(medium) {
+      font-size: rem-calc(25);
+    }
   }
   .smallText {
     font-size: rem-calc(16px);
@@ -201,6 +202,7 @@
   position: relative;
   overflow-x: hidden;
   z-index: 1;
+  margin-left: 12px;
   @include breakpoint(medium) {
     overflow-x: visible;
   }
