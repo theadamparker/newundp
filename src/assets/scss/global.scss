@@ -1,0 +1,28 @@
+h2 {
+  font-weight: 700;
+  line-height: 1.125;
+  + h3 {
+    margin-top: -$header-margin-bottom;
+    line-height: 1;
+  }
+}
+
+p {
+  font-size: rem-calc(16);
+  @include breakpoint(medium) {
+    font-size: rem-calc(20);
+  }
+}
+
+p a {
+  text-decoration: underline;
+}
+
+.blend-multiply {
+  mix-blend-mode: multiply;
+}
+
+figcaption {
+  margin-top: 1rem;
+  // opacity: .6;
+}

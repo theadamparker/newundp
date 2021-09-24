@@ -1,0 +1,44 @@
+<div class="section-3-3-enablers">
+  <div class="frameworkSectionHeader">
+    <div class="frameworkSectionHeader__half">
+      <div class="frameworkSectionHeader__numeral">
+        {{{ 3-3-enablers.frameworkSectionHeader.numeral }}}
+      </div>
+      <div>
+        <h3>{{ 3-3-enablers.frameworkSectionHeader.title }}</h3>
+        <h5>{{ 3-3-enablers.frameworkSectionHeader.subtitle }}</h5>
+      </div>
+    </div>
+    <div class="frameworkSectionHeader__half">
+      <div class="frameworkSectionHeader__text">
+        {{{ 3-3-enablers.frameworkSectionHeader.text }}}
+      </div>
+    </div>
+  </div>
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x photoBG padded">
+      <div class="small-12 medium-10 medium-offset-1 cell text-center container">
+        <!-- Slider main container -->
+        <div data-shadow-class="swiper-container" data-swiperjs>
+          <!-- Additional required wrapper -->
+          <div class="grid-x grid-padding-x medium-up-3 align-center" data-shadow-class="swiper-wrapper" data-equalizer data-equalize-on="medium" data-equalize-by-row="true">
+              <!-- Slides -->
+              {{#each 3-3-enablers.modules}}
+              <div class="cell module" data-shadow-class="swiper-slide module">
+                <div data-equalizer-watch>
+                  <img 
+                    src="{{@root.root}}assets/img/{{icon}}.svg"
+                    alt="">
+                </div>
+                <div class="title">{{{title}}}</div>
+                <p class="smallText">{{{ text }}}</p>
+              </div>
+              {{/each}}
+          </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,42 @@
+<div class="section-1-foreword padded">
+  <div class="grid-container section" id="toc1" data-magellan-target="toc1">
+    <div class="grid-x grid-padding-x">
+      <div class="small-12 medium-6 medium-offset-1 cell readmore" id="foreword" data-toggler="expanded">
+        <h2>{{1-foreword.title}}</h2>
+        {{{1-foreword.text1}}}
+        <div class="small-12 medium-8 cell">
+          {{{1-foreword.text2}}}
+        </div>
+        <div class="readmore-panel">
+          <button class="button" data-toggle="foreword">
+            <span class="closed">{{labels.readmore}}</span>
+            <span class="opened">{{labels.readless}}</span>
+          </button>
+        </div>
+      </div>
+      <div class="small-12 medium-3 medium-offset-1">
+        <div class="bgLightGray">
+        <figure>
+          <img alt="Achim Steiner" 
+            src="{{@root.root}}{{labels.blank}}"
+            data-src="{{@root.root}}assets/img/1-photo-achim.jpg"
+            data-srcset="{{@root.root}}assets/img/1-photo-achim@2x.jpg 2x" 
+            width="330" height="398"
+            class="lazyload">
+          <figcaption>
+            <span class="name">Achim Steiner</span><br>
+            {{labels.administrator}}<br>
+            {{labels.undplong}}
+          </figcaption>
+        </figure>
+        <img alt="Achim Steiner signature" 
+            src="{{@root.root}}{{labels.blank}}"
+            data-src="{{@root.root}}assets/img/1-signature-achim.jpg"
+            data-srcset="{{@root.root}}assets/img/1-signature-achim@2x.jpg 2x" width="162" height="66"
+            class="lazyload signature">
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>

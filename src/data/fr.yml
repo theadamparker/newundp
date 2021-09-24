@@ -1,0 +1,47 @@
+# generic info
+lang: fr
+logo-blue: pnud-logo-blue.svg
+logo-white: pnud-logo-white.svg
+title: Rapport Annuel 2020
+gtm: GTM-WXLP78Q
+
+# page metadata
+meta:
+  title: Rapport Annuel 2020 | PNUD
+  description: Une force motrice pour l’avenir du développement
+  keywords: PNUD, UN, Rapport Annuel, 2020
+  canonical: https://annualreport.undp.org/
+  ogtitle: Rapport Annuel 2020 | PNUD
+
+# i18n
+labels:
+  undplong: Programme des Nations Unies pour le développement
+  undp: PNUD
+  sdglong: Objectifs de développement durable
+  learnmore: En savoir plus
+  blank: ../assets/img/0.png
+  blank-inline: "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+  message: Message
+  share: Partager
+  annualreport: Rapport Annuel
+  downloadreport: Télécharger le rapport
+  administrator: Administrateur
+  readmore: "Voir"
+  readless: "- Fermer"
+  signaturesolution: Solution distinctive
+
+# content
+
+# menu:
+#   - Accueil
+#   - Avant-propos et résultats
+#   - Assurer l'aide au développement
+#   - Le personnel du PNUD
+#   - >
+#     #NextGenUNDP
+#   - Rapport Sur Le Développement Humain 2020
+#   - Intégration au travail
+#   - Promesse Climatique
+#   - Nos Partenaires
+#   - Investir dans le PNUD
+#   - Niveaux mondial, régional et local

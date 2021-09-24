@@ -1,0 +1,625 @@
+// Color
+$gray-100: #FAFAFA;
+$gray-200: #F7F7F7;
+$gray-600: #55606E;
+$blue-500: #3288CE;
+$blue-600: #006EB5;
+
+
+// Typography
+$sohne: "SohneBreit", sans-serif;
+
+h2 {
+  font-size: rem-calc(40);
+  line-height: 1.09;
+  @include breakpoint(medium) {
+    font-size: rem-calc(45);
+  }
+  @include breakpoint(large) {
+    font-size: rem-calc(55);
+  }
+}
+
+
+/* SohneBreit */
+
+@font-face {
+  font-family: "SohneBreit";
+  src: url("../fonts/soehne-breit-web-dreiviertelfett.woff2") format("woff2"), url("../fonts/soehne-breit-web-dreiviertelfett.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+$header-padding-top: rem-calc(map-get($map: $grid-margin-gutters, $key: small)/2);
+header {
+  position: absolute;
+  width: 100%;
+  padding-top: $header-padding-top;
+  z-index: 1;
+
+  @include breakpoint(large) {
+    top: rem-calc(60);
+  }
+
+}
+
+// trying to get rid of this white space created by the navigation
+.sticky-container {
+  @include breakpoint(medium) {
+    margin-bottom: -32px;
+  }
+}
+
+/*****************************
+0. Cover
+*****************************/
+
+.undpButton {
+  background: $blue-600;
+  color: $white;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: .2s all ease;
+  @include breakpoint(medium) {
+    padding: 16px 24px;
+  }
+  &:hover {
+    background: $blue-500;
+    .downloadIcon .arrow {
+      transform: translateY(-2px);
+    }
+  }
+  .text {
+    display: none;
+    @include breakpoint(medium) {
+      display: inline;
+    }
+  }
+  .downloadIcon {
+    @include breakpoint(medium) {
+      margin-left: 12px;
+    }
+    .arrow {
+      transition: .2s all ease;
+    }
+  }
+}
+
+.cover {
+  color: $white;
+
+  video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .overline {
+    font-size: rem-calc(25);
+    @include breakpoint(medium) {
+      font-size: rem-calc(35);
+    }
+  }
+  h1 {
+    font-family: $sohne;
+    color: $white;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+    font-size: rem-calc(42);
+    text-transform: uppercase;
+    @include breakpoint(medium) {
+      font-size: rem-calc(60);
+    }
+  }
+}
+
+/*****************************
+1. Foreword
+*****************************/
+
+.section-1-foreword {
+  margin: 0;
+
+  .bgLightGray {
+    background: $gray-200;
+    padding-bottom: 32px;
+  }
+
+  figure {
+    img {
+      width: 100%;
+      margin-bottom: 32px;
+    }
+  }
+  figcaption{
+    margin: 0 24px 16px;
+  }
+
+  .signature {
+    mix-blend-mode: multiply;
+    margin: 0 24px;
+    max-width: 100%;
+  }
+
+  .name {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 12px;
+  }
+}
+
+/*****************************
+2. Strategic Context
+*****************************/
+
+.section-2-strategic-context {
+  background: url('../img/2-strategic-context-bg.jpg') center no-repeat;
+  background-size: cover;
+
+  .module{
+    &:nth-of-type(1) {
+      .title {
+        color: #EA0A8C;
+      }
+    }
+    &:nth-of-type(2) {
+      .title {
+        color: #A94E9D;
+      }
+    }
+    &:nth-of-type(3) {
+      .title {
+        color: #355DAB;
+      }
+    }
+    &:nth-of-type(4) {
+      .title {
+        color: #2AACE2;
+      }
+    }
+  }
+}
+
+/*****************************
+3. What we do
+*****************************/
+
+.section-3-what-we-do {
+  .infographic {
+    width: 100%;
+  }
+  .framework {
+    padding: 100px 0;
+  }
+  .frameworkCard {
+    background: $gray-100;
+    padding: 64px 40px 40px;
+    margin: 0 0 80px;
+    position: relative;
+    &:last-of-type {
+      &::after {
+        content: '';
+        display: none;
+      }
+    }
+    &::after {
+      content: 'X';
+      font-size: 24px;
+      position: absolute;
+      bottom: -40px; // half of the bottom margin
+      left: 50%;
+      transform: translate(-50%, 50%);
+    }
+    .numeral {
+      font-size: rem-calc(100);
+      font-family: $sohne;
+    }
+    .title {
+      font-size: rem-calc(30);
+      font-weight: 600;
+      line-height: 1;
+      margin-bottom: 12px;
+      @include breakpoint(medium) {
+        font-size: rem-calc(35);
+      }
+    }
+    .text {
+      font-size: rem-calc(16);
+      @include breakpoint(medium) {
+        font-size: rem-calc(20);
+      }
+    }
+    .icon {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+}
+
+.frameworkSectionHeader {
+  padding: 64px 8.33%;
+  display: flex;
+  flex-direction: column;
+  border-top: 20px solid;
+  @include breakpoint(medium) {
+    padding: 80px 8.33%;
+    flex-direction: row;
+  }
+  .section-3-1-directions-of-change & {
+    border-color: #3AAC92;
+    .frameworkSectionHeader__numeral {
+      color: #3AAC92;
+    }
+  }
+  .section-3-2-signature-solutions & {
+    border-color: #E62F36;
+    .frameworkSectionHeader__numeral {
+      color: #E62F36;
+    }
+  }
+  .section-3-3-enablers & {
+    border-color: #455CA3;
+    .frameworkSectionHeader__numeral {
+      color: #455CA3;
+    }
+  }
+  &__half {
+    display: flex;
+    flex: 1;
+    vertical-align: top;
+    flex-direction: column;
+    @include breakpoint(medium) {
+      flex-direction: row;
+      padding-right: 32px;
+    }
+    &:nth-of-type(2) {
+      @include breakpoint(medium) {
+        border-left: 1px solid $black;
+        padding-left: 32px;
+      }
+      
+    }
+  }
+  &__numeral {
+    font-family: $sohne;
+    font-size: rem-calc(72);
+    line-height: 1;
+    margin-right: 32px;
+    @include breakpoint(medium) {
+      font-size: rem-calc(100);
+    }
+  }
+  &__text {
+    * {
+      font-size: rem-calc(16);
+      @include breakpoint(medium) {
+        font-size: rem-calc(20);
+      }
+    }
+    ul {
+      margin-left: 32px;
+    }
+  }
+  h3 {
+    margin: 16px 0 0px;
+    font-size: rem-calc(35);
+    font-weight: 600;
+    @include breakpoint(medium) {
+      font-size: rem-calc(35);
+    }
+  }
+  h5 {
+    font-size: rem-calc(25);
+    @include breakpoint(medium) {
+      font-size: rem-calc(25);
+    }
+  }
+}
+
+.section-3-1-directions-of-change {
+  .photoBG {
+    background: url('../img/3-framework-bg-1.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.section-3-2-signature-solutions {
+  .photoBG {
+    background: url('../img/3-framework-bg-1.jpg') no-repeat;
+    background-size: cover;
+    position: relative; // this is for the SDG wheel
+    overflow: hidden;
+    padding-top: 150px;
+    @include breakpoint(medium) {
+      padding-top: 250px;
+    }
+  }
+}
+
+.section-3-3-enablers {
+  .photoBG {
+    background: url('../img/3-framework-bg-3.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.sdgWheel {
+  position: absolute;
+  top: 0;
+  margin: 0 auto;
+  left: 50%;
+  transform: translate(-50%,-68%);
+  width: 90%;
+  max-width: 680px;
+  img {
+    animation: rotating 70s linear infinite;
+    width: 100%;
+  }
+}
+
+/*****************************
+4. Global Partnerships
+*****************************/
+
+.section-4-partnerships {
+  background: linear-gradient(180deg, #3950A2 0%, #3950A2 36.09%, #18B576 100%);
+  color: $white;
+  .graphic {
+    margin-left: -25%;
+    width: 125%;
+    max-width: none;
+  }
+}
+
+/*****************************
+5. UN System
+*****************************/
+
+$iconSize: 222px;
+
+.section-5-unsystem {
+  background: $gray-100;
+  .modules {
+    margin-left: 8.33333%;
+  }
+  .module {
+    background: $white;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+    margin-bottom: 64px;
+    padding: 27px 41px 27px $iconSize;
+    border-radius: 69px;
+    position: relative;
+    width: 85%;
+    
+    @include breakpoint(medium) {
+      width: 500px;
+    }
+    @include breakpoint(large) {
+      width: 700px;
+    }
+    .icon {
+      position: absolute;
+      width: $iconSize;
+      height: $iconSize;
+      left: -25px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+/*****************************
+6. Better Never Stops
+*****************************/
+
+.section-6-betterneverstops {
+  background: url('../img/3-framework-bg-3.jpg') no-repeat;
+  background-size: cover;
+  .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    h3 {
+      margin: 0 0 0 18px;
+      font-size: rem-calc(20);
+      @include breakpoint(medium) {
+        font-size: rem-calc(25);
+      }
+    }
+  }
+}
+
+.topBorder {
+  width: 100%;
+  height: 24px;
+  background: linear-gradient(90deg, #B870DE 0%, #D46DE0 35.74%, #D844C0 69.91%, #D20584 100%);
+}
+
+.arrowGraphic {
+  display: flex;
+  @include breakpoint(medium) {
+    height: 400px;
+    margin-top: -100px;
+  }
+  @include breakpoint(large) {
+    height: 500px;
+    margin-top: -300px;
+  }
+}
+
+.arrowGraphic__tail {
+  flex: 1;
+  background: url('../img/6-graphic-tail.png') repeat-x;
+  background-size: contain;
+}
+
+/*****************************
+7. Global Regional Local
+*****************************/
+
+.section-7-global {
+  background: url('../img/7-global-bg.jpg') center top no-repeat #012F50; 
+  background-size: 150%;
+  color: $white;
+  position: relative;
+  @include breakpoint(medium) {
+    background-size: contain;
+  }
+  .accordionWrap {
+    background: rgba(247, 247, 247, 0.8);
+    backdrop-filter: blur(20px);
+    color: $black;
+    padding: 24px;
+  }
+}
+
+// targeting FF
+@supports not (backdrop-filter: blur(20px)) {
+  .section-7-global {
+    .accordionWrap {
+      background: rgba(247, 247, 247, 0.9);
+    }
+  }
+}
+
+// note: this is assembled from the BC design system
+.faq {
+  .faq-item {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #000000;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  .question-button {
+    width: 100%;
+    cursor: pointer;
+    padding: 25px 0;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+    .title {
+      width: 80%;
+      line-height: 1.2;
+      font-size: rem-calc(25);
+    }
+  }
+  .arrow-down {
+    transition: all 0.3s ease;
+  }
+  .answer {
+    opacity: 0;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 40px 0 44px;
+    transition: all 250ms 0.2s cubic-bezier(0.4, 0.22, 0.28, 1);
+    p {
+      font-size: rem-calc(14);
+      @include breakpoint(medium) {
+        font-size: rem-calc(16);
+      }
+    }
+    &.column-count-2 {
+      columns: 2;
+    }
+  }
+  .expanded {
+    .answer {
+      opacity: 1;
+      max-height: 1200px; // Note: not sure how this magic number works
+      padding: 16px 40px 23px 44px;
+    }
+    .arrow-down {
+      transform: rotate(-180deg);
+    }
+  }
+}
+
+@media print, screen and (max-width: 74.62375em) {
+  .faq .questions-container {
+    margin-top: 50px;
+  }
+}
+@media print, screen and (max-width: 74.62375em) {
+  .faq .answer {
+    padding: 0 30px 0 30px;
+  }
+}
+
+@media print, screen and (max-width: 74.62375em) {
+  .faq .expanded .answer {
+    padding: 15px 30px;
+  }
+}
+
+/*****************************
+** Other styles
+*****************************/
+
+footer {
+  background: $blue-600;
+  color: $white;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  font-weight: 600;
+  font-size: rem-calc(18);
+  .logo {
+    display: flex;
+    align-items: center;
+    img {
+      width: 50px;
+    }
+    .title {
+      max-width: 230px;
+      margin-left: 25px;
+    }
+  }
+  .sm {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    @include breakpoint(large) {
+      li {
+        flex: 0 1 auto!important;
+      }
+    }
+  }
+  .menu {
+    width: 100%;
+    li:first-of-type
+    a {
+      padding-left: 0;
+    }
+    img {
+      width: 22px;
+    }
+    @include breakpoint(large) {
+      justify-content: flex-end;
+      li {
+        flex: 0 1 auto!important;
+      }
+    }
+  }
+  .copyright {
+    font-size: rem-calc(13);
+  }
+}
