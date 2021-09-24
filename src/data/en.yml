@@ -88,6 +88,26 @@ labels:
 3-whatWeDo:
   title: What We Do
   subtitle: UNDP’s development offer
+  bigText: UNDP’s work is summarized in the Strategic Plan by this “3x6x3” framework. 
+  text: >
+    This combination will help UNDP continue to deliver on what it does best: integrated development solutions driven by country priorities.
+  frameworkCards:
+    - icon: 3-icon-1
+      numeral: 3
+      title: Directions of Change
+      text: >
+        Structural transformation, leaving no-one behind, building resilience
+    - icon: 3-icon-2
+      numeral: 6
+      title: Signature Solutions
+      text: >
+        Poverty and inequality, governance, resilience, environment, energy, gender equality
+    - icon: 3-icon-3
+      numeral: 3
+      title: Enablers
+      text: >
+        Strategic innovation, digitalisation, development financing
+
 
 3-1-directionsOfChange:
   frameworkSectionHeader:
