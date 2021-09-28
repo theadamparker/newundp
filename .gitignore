@@ -7,3 +7,5 @@ docs/assets/scss
 etc
 *.swp
 package-lock.json
+.npmrc
+.undp_zurb_template_lock

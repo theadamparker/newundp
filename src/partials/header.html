@@ -10,7 +10,7 @@
           <img src="{{@root.root}}assets/img/{{logo-white}}" width="60" alt="{{labels.undp}} logo">
         </a>
       </div>
-      <div class="small-6 align-right align-middle cell grid-x">
+      <div class="small-10 large-6 align-right align-middle cell grid-x">
         <a class="download" href="#">
           <div class="undpButton">
             <span class="text">Download</span>
@@ -20,7 +20,7 @@
                 <path d="M10.5001 -0.000518799V11.6484" stroke="white" stroke-width="2"/>
                 <path d="M5.39096 7.13647L10.5397 12.4862L15.6897 7.13647" stroke="white" stroke-width="2"/>
               </g>
-              </svg>
+            </svg>
           </div>
         </a>
         <div id="language-switcher" class="" data-toggler=".expanded">
@@ -35,6 +35,20 @@
               {{#ifequal this.lang "en"}}{{else}}<li><a href="{{@root.root}}">English</a></li>{{/ifequal}}
               {{#ifequal this.lang "es"}}{{else}}<li><a href="{{@root.root}}es/">Español</span></a></li>{{/ifequal}}
               {{#ifequal this.lang "fr"}}{{else}}<li><a href="{{@root.root}}fr/">Français</span></a></li>{{/ifequal}}
+              {{#each download}}
+              <li>
+                <a href="{{{link}}}">
+                  <span>{{title}}</span>
+                    <svg class="downloadIcon" width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1.07605 10.5664V16.9592H19.9261V10.5664" stroke="#D12800" stroke-width="2"/>
+                      <g class="arrow">
+                        <path d="M10.5001 -0.000518799V11.6484" stroke="#D12800" stroke-width="2"/>
+                        <path d="M5.39096 7.13647L10.5397 12.4862L15.6897 7.13647" stroke="#D12800" stroke-width="2"/>
+                      </g>
+                    </svg>
+                </a>
+              </li>
+              {{/each}}
             </ul>
         </div>
       </div>

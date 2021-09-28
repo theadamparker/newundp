@@ -42,6 +42,16 @@ labels:
 #   - Investing in UNDP
 #   - Global, regional, local
 
+# download links
+download:
+  - title: Русский
+    link: https://www.undp.org/sites/g/files/zskgke326/files/2021-09/UNDP-Strategic-Plan-2022-2025-RU.pdf
+  - title: 中文
+    link: https://www.undp.org/sites/g/files/zskgke326/files/2021-09/UNDP-Strategic-Plan-2022-2025-ZH.pdf
+  - title: العربية
+    link: "#"
+
+
 0-cover:
   title: >
     Strategic Plan <br>
@@ -57,7 +67,7 @@ labels:
     <p>The Plan describes how the combination of our deep local experience and our rich global network, tapping into countries’ knowledge and shared experience, delivers value to our partners.  How we will foster innovation and creativity to help change systems and tackle the hardest challenges standing between us and the SDGs.  All this to scale and accelerate progress towards green, inclusive transitions that empower every last person through greater opportunity and resilience.</p>
     <p>The Plan is the result of extensive collaboration with our many partners.  I am immensely grateful to them, and to all our UNDP teams, whose contributions have helped produce a Plan that truly reflects the diversity of all the countries, communities and people whom UNDP serves.</p>
     <p>I invite you to read the Plan itself and learn more.  With your support and collaboration, together UNDP can work with countries to expand people’s choices for a fairer, sustainable future, to build the world envisioned by Agenda 2030 with planet and people in balance.</p>
-    
+
 
 2-strategicContext:
   title: Strategic context
@@ -83,12 +93,12 @@ labels:
     - icon: 2.4-icon
       lead: Promoting
       title: over US$1 trillion
-      text: of public expenditure and private capital investment in the SDGs 
+      text: of public expenditure and private capital investment in the SDGs
 
 3-whatWeDo:
   title: What We Do
   subtitle: UNDP’s development offer
-  bigText: UNDP’s work is summarized in the Strategic Plan by this “3x6x3” framework. 
+  bigText: UNDP’s work is summarized in the Strategic Plan by this “3x6x3” framework.
   text: >
     This combination will help UNDP continue to deliver on what it does best: integrated development solutions driven by country priorities.
   frameworkCards:
@@ -189,11 +199,11 @@ labels:
     <p>The next four years will see UNDP strengthening these existing partnerships and forging new ones. Using our convening power to continue building strategic alliances with marginalized voices and empowering local actors.</p>
     <p>The partnerships of the future require flexible instruments, modalities and funding, better suited to new types of partners or new ways of collaborating (e.g., “creative commons” approaches towards sharing intellectual property).</p>
     <p>UNDP will also work with partners to advocate for, and facilitate, global and regional cooperation around common challenges – from pandemics to conflict to green transitions – while showcasing the value of multilateral solutions.</p>
-    
+
 5-unSystem:
   title: A strong partner in the UN system
   subtitle: Complementing our capabilities
-  text: As we work with partners across the UN system, we draw on each other’s complementary strengths and capabilities to deliver stronger results. 
+  text: As we work with partners across the UN system, we draw on each other’s complementary strengths and capabilities to deliver stronger results.
   modules:
     - icon: 5-icon-1
       text: With the United Nations Development System to deliver coherent and integrated development solutions, driven by country demand, that maximise collective results and impact
@@ -221,9 +231,9 @@ labels:
     - icon: 6-icon-2
       text: Understanding and managing risk
     - icon: 6-icon-3
-      text: Modernising operational systems and structures 
+      text: Modernising operational systems and structures
     - icon: 6-icon-4
-      text: Updating programming arrangements and implementation modalities 
+      text: Updating programming arrangements and implementation modalities
 
 7-global:
   title: Global, regional, local
@@ -355,7 +365,7 @@ labels:
         - name: Turkmenistan
         - name: Ukraine
         - name: Uzbekistan
-    - name: Asia and the Pacific 
+    - name: Asia and the Pacific
       columns: 2
       items:
         - name: <b>Bangkok Regional Hub</b>
@@ -399,5 +409,3 @@ labels:
         - name: Istanbul International Center for Private Sector in Development
         - name: Seoul Policy Centre for Knowledge Exchange through SDG Partnerships
         - name: Singapore Global Centre for Technology, Innovation and Sustainable Development
-
-

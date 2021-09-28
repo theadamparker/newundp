@@ -1,21 +1,19 @@
 {
   "name": "@undp/newundp",
-  "version": "1.0.0",
-  "description": "ar2020",
+  "version": "1.0.1",
+  "description": "",
   "main": "gulpfile.babel.js",
   "scripts": {
     "start": "gulp",
     "build": "gulp build --production"
   },
-  "author": "Adam Parker <adam.parker@undp.org>",
-  "license": "CC BY-NC 4.0",
   "dependencies": {
-    "foundation-sites": "^6.6.3",
-    "jquery": "^3.5.1",
-    "lazysizes": "^5.1.2",
-    "motion-ui": "^2.0.3",
-    "swiper": "^5.4.1",
-    "what-input": "^5.2.9"
+    "foundation-sites": "^6.7",
+    "jquery": "^3.6",
+    "lazysizes": "^5",
+    "motion-ui": "^2",
+    "swiper": "^5",
+    "what-input": "^5"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
@@ -24,7 +22,6 @@
     "autoprefixer": "^9.7.3",
     "babel-loader": "^8.0.6",
     "browser-sync": "^2.26.7",
-    "foundation-sites": "^6.6.3",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-clean-css": "^4.2.0",
