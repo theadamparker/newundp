@@ -27,33 +27,32 @@ labels:
   administrator: Administrator
   readmore: Expand
   readless: Collapse
+  termsofuse: Terms of use
 
 # content
 
 menu:
   - Home
-  - Foreword and results
-  - Delivering on development
-  - People of UNDP
-  - Human Development Report 2020
-  - Integration at work
-  - Climate Promise
-  - Our partners
-  - Investing in UNDP
+  - Foreword
+  - Strategic context
+  - What We Do
+  - Global partnerships
+  - A strong partner in the UN system
+  - Better never stops
   - Global, regional, local
 
 # download links
 download:
   - title: العربية
-    link: https://documents-dds-ny.un.org/doc/UNDOC/GEN/N21/184/48/PDF/N2118448.pdf
+    link: https://www.undp.org/sites/g/files/zskgke326/files/2021-09/UNDP-Strategic-Plan-2022-2025-AR.pdf
   - title: 中文
-    link: https://documents-dds-ny.un.org/doc/UNDOC/GEN/N21/184/49/PDF/N2118449.pdf
+    link: https://www.undp.org/sites/g/files/zskgke326/files/2021-09/UNDP-Strategic-Plan-2022-2025-ZH.pdf
   - title: Français
-    link: https://documents-dds-ny.un.org/doc/UNDOC/GEN/N21/184/51/PDF/N2118451.pdf
+    link: https://www.undp.org/sites/g/files/zskgke326/files/2021-09/UNDP-Strategic-Plan-2022-2025-FR.pdf
   - title: Русский
-    link: https://documents-dds-ny.un.org/doc/UNDOC/GEN/N21/184/52/PDF/N2118452.pdf
+    link: https://www.undp.org/sites/g/files/zskgke326/files/2021-09/UNDP-Strategic-Plan-2022-2025-RU.pdf
   - title: Español
-    link: https://documents-dds-ny.un.org/doc/UNDOC/GEN/N21/184/53/PDF/N2118453.pdf
+    link: https://www.undp.org/sites/g/files/zskgke326/files/2021-09/UNDP-Strategic-Plan-2022-2025-SP.pdf
 
 0-cover:
   title: >
