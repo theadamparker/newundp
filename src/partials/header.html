@@ -32,9 +32,11 @@
               <svg height="7.497" width="10.529" xmlns="http://www.w3.org/2000/svg"><path d="m.584.47 4.682 5.829 4.68-5.829" fill="none" stroke="currentColor" stroke-width="1.5"></path></svg>
             </button>
             <ul class="vertical menu">
+              {{!--
               {{#ifequal this.lang "en"}}{{else}}<li><a href="{{@root.root}}">English</a></li>{{/ifequal}}
               {{#ifequal this.lang "es"}}{{else}}<li><a href="{{@root.root}}es/">Español</span></a></li>{{/ifequal}}
               {{#ifequal this.lang "fr"}}{{else}}<li><a href="{{@root.root}}fr/">Français</span></a></li>{{/ifequal}}
+              --}}
               {{#each download}}
               <li>
                 <a href="{{{link}}}">

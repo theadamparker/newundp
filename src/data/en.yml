@@ -44,13 +44,16 @@ labels:
 
 # download links
 download:
-  - title: Русский
-    link: https://www.undp.org/sites/g/files/zskgke326/files/2021-09/UNDP-Strategic-Plan-2022-2025-RU.pdf
-  - title: 中文
-    link: https://www.undp.org/sites/g/files/zskgke326/files/2021-09/UNDP-Strategic-Plan-2022-2025-ZH.pdf
   - title: العربية
-    link: "#"
-
+    link: https://documents-dds-ny.un.org/doc/UNDOC/GEN/N21/184/48/PDF/N2118448.pdf
+  - title: 中文
+    link: https://documents-dds-ny.un.org/doc/UNDOC/GEN/N21/184/49/PDF/N2118449.pdf
+  - title: Français
+    link: https://documents-dds-ny.un.org/doc/UNDOC/GEN/N21/184/51/PDF/N2118451.pdf
+  - title: Русский
+    link: https://documents-dds-ny.un.org/doc/UNDOC/GEN/N21/184/52/PDF/N2118452.pdf
+  - title: Español
+    link: https://documents-dds-ny.un.org/doc/UNDOC/GEN/N21/184/53/PDF/N2118453.pdf
 
 0-cover:
   title: >
