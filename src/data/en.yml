@@ -25,22 +25,22 @@ labels:
   share: Share
   downloadreport: Download report
   administrator: Administrator
-  readmore: "Read more"
-  readless: "- Close"
+  readmore: Expand
+  readless: Collapse
 
 # content
 
-# menu:
-#   - Home
-#   - Foreword and results
-#   - Delivering on development
-#   - People of UNDP
-#   - Human Development Report 2020
-#   - Integration at work
-#   - Climate Promise
-#   - Our partners
-#   - Investing in UNDP
-#   - Global, regional, local
+menu:
+  - Home
+  - Foreword and results
+  - Delivering on development
+  - People of UNDP
+  - Human Development Report 2020
+  - Integration at work
+  - Climate Promise
+  - Our partners
+  - Investing in UNDP
+  - Global, regional, local
 
 # download links
 download:

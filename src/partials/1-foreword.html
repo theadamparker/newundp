@@ -8,35 +8,33 @@
           {{{1-foreword.text2}}}
         </div>
         <div class="readmore-panel">
-          <button class="button" data-toggle="foreword">
+          <div class="readmore-button" data-toggle="foreword">
             <span class="closed">{{labels.readmore}}</span>
             <span class="opened">{{labels.readless}}</span>
-          </button>
+            <span class="arrow-down"><svg xmlns="http://www.w3.org/2000/svg" width="17.59" height="11.633" viewBox="0 0 17.59 11.633"><g transform="translate(0.762 10.09) rotate(-90)"><g transform="translate(892.611 517.347) rotate(180)"><g transform="translate(883.17 501.28)"><path d="M-19204.023,14199.331l9.441,8.031-9.441,8.035" transform="translate(19204.023 -14199.331)" fill="none" stroke="#d12800" stroke-width="2"/></g></g></g></svg></span>
+          </div>
         </div>
       </div>
       <div class="small-12 medium-3 medium-offset-1">
         <div class="bgLightGray">
         <figure>
-          <img alt="Achim Steiner" 
+          <img alt="Achim Steiner"
             src="{{@root.root}}{{labels.blank}}"
-            data-src="{{@root.root}}assets/img/1-photo-achim.jpg"
-            data-srcset="{{@root.root}}assets/img/1-photo-achim@2x.jpg 2x" 
-            width="330" height="398"
-            class="lazyload">
+            data-interchange="[{{@root.root}}assets/img/1-photo-achim-landscape.jpg, small], [{{@root.root}}assets/img/1-photo-achim.jpg, medium]">
           <figcaption>
             <span class="name">Achim Steiner</span><br>
             {{labels.administrator}}<br>
             {{labels.undplong}}
           </figcaption>
         </figure>
-        <img alt="Achim Steiner signature" 
+        <img alt="Achim Steiner signature"
             src="{{@root.root}}{{labels.blank}}"
             data-src="{{@root.root}}assets/img/1-signature-achim.jpg"
             data-srcset="{{@root.root}}assets/img/1-signature-achim@2x.jpg 2x" width="162" height="66"
             class="lazyload signature">
         </div>
       </div>
-      
+
     </div>
   </div>
 </div>
