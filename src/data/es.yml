@@ -30,4 +30,13 @@ labels:
   readless: "- Cerrar"
   signaturesolution: Solución emblemática
 
+# download links
+download:
+  - title: Русский
+    link: https://documents-dds-ny.un.org/doc/UNDOC/GEN/N21/184/52/PDF/N2118452.pdf
+  - title: 中文
+    link: https://documents-dds-ny.un.org/doc/UNDOC/GEN/N21/184/49/PDF/N2118449.pdf
+  - title: العربية
+    link: https://documents-dds-ny.un.org/doc/UNDOC/GEN/N21/184/48/PDF/N2118448.pdf
+
 # content

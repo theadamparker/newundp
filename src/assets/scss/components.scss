@@ -122,41 +122,65 @@
 }
 
 .readmore {
-  max-height: 100vh;
+  max-height: 90vh;
   position: relative;
   overflow: hidden;
+  transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
   .readmore-panel {
     position: absolute;
     z-index: 1;
-    width: 100%;
+    width: calc(100% - 74px);
     height: 150px;
-    background: linear-gradient(to bottom, transparentize($white, 1), $white);
-    top: calc(100vh - 150px);
-    .button {
+    background: linear-gradient(to bottom, transparentize($white, 1), $white 75%, $white 100%);
+    top: calc(90vh - 150px);
+    .readmore-button {
+      cursor: pointer;
       position: absolute;
-      bottom: 0;
+      width: 100%;
+      bottom: 20px;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-left: auto;
+      margin-right: auto;
     }
+    // .button {
+    //   position: absolute;
+    //   bottom: 0;
+    // }
     .opened {
       display: none;
     }
     .closed {
       display: inline;
     }
+    .arrow-down {
+      margin-left: 10px;
+      svg {
+        transition: transform 200ms;
+      }
+    }
   }
   &.expanded {
-    max-height: none;
+    max-height: 150rem;
+    transition: max-height 1s ease-in-out;
     .readmore-panel {
-      position: static;
-      height: 75px;
+      position: relative;
+      height: 50px;
+      top: auto;
+      width: auto;
       .opened {
         display: inline;
       }
       .closed {
         display: none;
       }
+      .arrow-down svg {
+        transform: rotateZ(180deg);
+      }
     }
   }
-  @include breakpoint(medium) {
+  @include breakpoint(large) {
     max-height: none;
     .readmore-panel {
       display: none;
@@ -203,8 +227,10 @@
   overflow-x: hidden;
   z-index: 1;
   margin-left: 12px;
+  width: 150px;
   @include breakpoint(medium) {
     overflow-x: visible;
+    width: 200px;
   }
   button {
     color: $white;
@@ -217,8 +243,14 @@
     display: flex;
     align-items: center;
     overflow: hidden;
+    // width: 200px;
+    margin-left: 100px;
+    transition: margin 200ms ease-in-out;
     &:hover {
       color: scale-color($white, $lightness: 20%);
+    }
+    @include breakpoint(medium) {
+      margin-left: 0;
     }
     span {
       display: block;
@@ -246,18 +278,46 @@
     transition: opacity 200ms ease-in-out;
     background: $white;
     box-shadow: 0 3px 6px rgba(0,0,0,0.09);
-    width: 120px;
+    width: 150px;
     left: 10px;
-    text-align: center;
+    margin-left: 20px;
+
+    li {
+      a {
+        color: $black;
+        font-weight: 600;
+        padding: 14px;
+        .downloadIcon {
+          float: right;
+          // @include breakpoint(medium) {
+          //   margin-left: 12px;
+          // }
+          .arrow {
+            transition: .2s all ease;
+          }
+        }
+        &:hover {
+          .downloadIcon .arrow {
+            transform: translateY(-2px);
+          }
+        }
+      }
+      border-bottom: 1px solid #D4D6D8;
+      &:last-of-type {
+        border-bottom: 0;
+      }
+    }
   }
   &.expanded {
     overflow-x: visible;
     button {
       color: scale-color($white, $lightness: 20%);
+      margin-left: 0;
       span {
         opacity: 1;
         width: 60px;
         transform: translateX(0);
+        text-align: left;
       }
       svg:last-child {
         transform: rotate(-180deg);
@@ -268,4 +328,12 @@
       transition-delay: 200ms;
     }
   }
+}
+
+.scroller {
+  width: 45px;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
 }

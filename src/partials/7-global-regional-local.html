@@ -1,4 +1,4 @@
-<div class="section-7-global padded">
+<div class="section-7-global padded" id="toc7" data-magellan-target="toc7">
   <div class="grid-container">
     <div class="grid-x grid-padding-x section">
       <div class="small-12 medium-9 large-5 medium-offset-1 cell">
@@ -8,19 +8,35 @@
     </div>
     <div class="grid-x grid-padding-x section">
       <div class="small-10 small-offset-1 medium-9 large-5 cell accordionWrap faq">
+        <ul class="accordion" data-accordion data-allow-all-closed="true">
         {{#each 7-global.regions}}
-        <div class="faq-item question accordion">
-            <button class="question-button accordion-trigger grid-x">
+        <li class="accordion-item" data-accordion-item>
+          <a href="#" class="accordion-title">
+            {{name}}
+            <span class="arrow-down"><svg xmlns="http://www.w3.org/2000/svg" width="17.59" height="11.633" viewBox="0 0 17.59 11.633"><g transform="translate(0.762 10.09) rotate(-90)"><g transform="translate(892.611 517.347) rotate(180)"><g transform="translate(883.17 501.28)"><path d="M-19204.023,14199.331l9.441,8.031-9.441,8.035" transform="translate(19204.023 -14199.331)" fill="none" stroke="#d12800" stroke-width="2"/></g></g></g></svg></span>
+          </a>
+          <div class="accordion-content" data-tab-content>
+            <div>
+            {{#each items}}
+            <p>{{{name}}}</p>
+            {{/each}}
+            </div>
+          </div>
+        </li>
+        {{!-- <div class="faq-item question accordion" id="accordion-{{@index}}" data-toggler=".expanded">
+            <button class="question-button accordion-trigger grid-x" data-toggle="accordion-{{@index}}">
                 <span class="title">{{name}}</span>
                 <span class="arrow-down"><svg xmlns="http://www.w3.org/2000/svg" width="17.59" height="11.633" viewBox="0 0 17.59 11.633"><g transform="translate(0.762 10.09) rotate(-90)"><g transform="translate(892.611 517.347) rotate(180)"><g transform="translate(883.17 501.28)"><path d="M-19204.023,14199.331l9.441,8.031-9.441,8.035" transform="translate(19204.023 -14199.331)" fill="none" stroke="#d12800" stroke-width="2"/></g></g></g></svg></span>
             </button>
             <div class="answer column-count-{{columns}}">
+
                 {{#each items}}
                 <p>{{{name}}}</p>
                 {{/each}}
             </div>
-        </div>
+        </div> --}}
         {{/each}}
+        </ul>
       </div>
     </div>
   </div>

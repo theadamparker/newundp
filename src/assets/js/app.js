@@ -34,14 +34,17 @@ $(() => {
     }).foundation('close');
   });
 
-  const $accordion = $('.accordion')
+  // const $accordion = $('.accordion')
 
-  if ($accordion.length) {
-    $accordion.find('.accordion-trigger')
-      .click(function () {
-        let $acc = $(this).closest('.accordion')
-        $acc.toggleClass('expanded')
-      })
-  }
+  // if ($accordion.length) {
+  //   $accordion.find('.accordion-trigger')
+  //     .click(function () {
+  //       let $acc = $(this).closest('.accordion')
+  //       $acc.toggleClass('expanded')
+  //     })
+  // }
+  // $('.accordion .accordion-trigger').on('click', function(){
+  //   $(this).closest('.accordion').toggleClass('expanded');
+  // });
 
 });
