@@ -42,7 +42,9 @@ $(() => {
 
   // reserve fancy stuff for modern browsers
   if (typeof IntersectionObserver === 'function') {
-    var wwdobserver = new IntersectionObserver((entries, observer) => {
+
+    // What we do section
+    var observer = new IntersectionObserver((entries, observer) => {
       entries.forEach(entry => {
         $(entry.target).toggleClass('in-view', entry.isIntersecting);
       });
@@ -51,7 +53,19 @@ $(() => {
     });
 
     $('.frameworkCard').each(function(i, ele){
-      wwdobserver.observe(ele);
+      observer.observe(ele);
+    });
+
+    var observer2 = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        $(entry.target).toggleClass('in-view', entry.isIntersecting);
+      });
+    }, {
+      rootMargin: '-47% 0%'
+    });
+
+    $('#toc5 .module').each(function(i, ele){
+      observer2.observe(ele);
     });
 
   }

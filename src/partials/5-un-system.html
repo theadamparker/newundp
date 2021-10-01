@@ -1,22 +1,33 @@
 <div class="section-5-unsystem padded" id="toc5" data-magellan-target="toc5">
   <div class="grid-container">
-    <div class="grid-x grid-padding-x">
-      <div class="small-12 medium-6 medium-offset-1 cell">
-        <h2>{{5-unSystem.title}}</h2>
+
+    <div class="grid-x"><!--  id="unsystem" data-sticky-container -->
+
+          <div class="small-10 large-5 large-offset-1 cell modules">
+          <h2>{{5-unSystem.title}}</h2>
         <h3>{{5-unSystem.subtitle}}</h3>
         {{{5-unSystem.text}}}
-      </div>
+
+              {{#each 5-unSystem.modules}}
+              <div class="module">
+                <img
+                  class="icon"
+                  src="{{@root.root}}assets/img/{{icon}}.svg"
+                  alt="">
+                {{ text }}
+              </div>
+              {{/each}}
+
+          </div>
+          <!-- <div class="large-6 cell emblem show-for-large">
+            <div class="sticky" data-sticky data-margin-top="0" data-anchor="unsystem" data-sticky-on="large">
+            <img
+              src="{{@root.root}}assets/img/5-un-logo.png"
+              alt="UN emblem">
+            </div>
+          </div> -->
+
     </div>
-  </div>
-  <div class="modules section">
-    {{#each 5-unSystem.modules}}
-    <div class="module">
-      <img
-        class="icon"
-        src="{{@root.root}}assets/img/{{icon}}.svg"
-        alt="">
-      {{ text }}
-    </div>
-    {{/each}}
+
   </div>
 </div>
