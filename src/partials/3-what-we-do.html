@@ -15,20 +15,24 @@
           class="lazyload show-for-small-only infographic">
     </div>
   </div>
-  <div class="grid-x grid-padding-x framework">
+  <div class="grid-x grid-padding-x framework" id="framework" data-sticky-container><!--  -->
     <div class="cell small-12 medium-4 medium-offset-1">
-      <h3>{{3-whatWeDo.bigText}}</h3>
-      <p>{{{3-whatWeDo.text}}}</p>
+      <div class="sticky">
+        <h3>{{3-whatWeDo.bigText}}</h3>
+        <p>{{{3-whatWeDo.text}}}</p>
+      </div>
     </div>
     <div class="cell small-12 medium-6 large-5 medium-offset-1">
       {{#each 3-whatWeDo.frameworkCards}}
       <div class="frameworkCard">
-        <div class="numeral">{{numeral}}</div>
-        <div class="title">{{title}}</div>
-        <div class="text">{{text}}</div>
-        <img alt=""
-          src="{{@root.root}}assets/img/{{icon}}.svg"
-          class="lazyload icon" >
+        <div class="content">
+          <div class="numeral">{{numeral}}</div>
+          <div class="title">{{title}}</div>
+          <div class="text">{{text}}</div>
+          <img alt=""
+            src="{{@root.root}}assets/img/{{icon}}.svg"
+            class="lazyload icon" >
+        </div>
       </div>
       {{/each}}
     </div>

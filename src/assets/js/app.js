@@ -34,17 +34,27 @@ $(() => {
     }).foundation('close');
   });
 
-  // const $accordion = $('.accordion')
+  var wwd = new Foundation.Sticky($('#framework .sticky'), {
+    anchor: 'framework',
+    marginTop: ($(window).height() - $('#framework .sticky').height())/32,
+    stickyOn: 'medium'
+  });
 
-  // if ($accordion.length) {
-  //   $accordion.find('.accordion-trigger')
-  //     .click(function () {
-  //       let $acc = $(this).closest('.accordion')
-  //       $acc.toggleClass('expanded')
-  //     })
-  // }
-  // $('.accordion .accordion-trigger').on('click', function(){
-  //   $(this).closest('.accordion').toggleClass('expanded');
-  // });
+  // reserve fancy stuff for modern browsers
+  if (typeof IntersectionObserver === 'function') {
+    var wwdobserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        $(entry.target).toggleClass('in-view', entry.isIntersecting);
+      });
+    }, {
+      rootMargin: '-50% 0%'
+    });
+
+    $('.frameworkCard').each(function(i, ele){
+      wwdobserver.observe(ele);
+    });
+
+  }
+
 
 });

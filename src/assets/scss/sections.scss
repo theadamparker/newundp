@@ -195,26 +195,48 @@ header {
     width: 100%;
   }
   .framework {
-    padding: 100px 0;
+    .sticky {
+      padding-bottom: 28px;
+      @include breakpoint(small only) {
+        position: static;
+      }
+    }
   }
+
   .frameworkCard {
     background: $gray-100;
     padding: 64px 40px 40px;
     margin: 0 0 80px;
     position: relative;
+    .content {
+      position: relative;
+      z-index: 1;
+    }
     &:last-of-type {
-      &::after {
+      &::before {
         content: '';
         display: none;
       }
     }
-    &::after {
+    &::before {
       content: 'X';
       font-size: 24px;
       position: absolute;
       bottom: -40px; // half of the bottom margin
       left: 50%;
       transform: translate(-50%, 50%);
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      // z-index: 0;
+      // background-color: $gray-100;
+      opacity: 0;
+      transition: opacity 0.5s;
     }
     .numeral {
       font-size: rem-calc(100);
@@ -239,6 +261,28 @@ header {
       position: absolute;
       top: 0;
       right: 0;
+    }
+    &.in-view {
+      color: $white;
+      &::after {
+        opacity: 1;
+        transition: opacity 0.5s;
+      }
+      &:nth-of-type(1) {
+        &::after {
+          background-color: #3AAC92;
+        }
+      }
+      &:nth-of-type(2) {
+        &::after {
+          background-color: #E62F36;
+        }
+      }
+      &:nth-of-type(3) {
+        &::after {
+          background-color: #455CA3;
+        }
+      }
     }
   }
 }
