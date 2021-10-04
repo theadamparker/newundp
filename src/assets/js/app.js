@@ -70,26 +70,26 @@ $(() => {
       observer.observe(ele);
     });
 
-    var observer2 = new IntersectionObserver((entries, observer) => {
-      if (Foundation.MediaQuery.atLeast('large')) {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            let $entry = $(entry.target);
-            let offset = $entry.offset();
-            let top = offset.top + $entry.height() - $(window).height()/2;
-            $('html,body').animate({
-              scrollTop: top
-            }, 250);
-          }
-        });
-      }
-    }, {
-      rootMargin: '-46% 0%'
-    });
+    // var observer2 = new IntersectionObserver((entries, observer) => {
+    //   if (Foundation.MediaQuery.atLeast('large')) {
+    //     entries.forEach(entry => {
+    //       if (entry.isIntersecting) {
+    //         let $entry = $(entry.target);
+    //         let offset = $entry.offset();
+    //         let top = offset.top + $entry.height() - $(window).height()/2;
+    //         $('html,body').animate({
+    //           scrollTop: top
+    //         }, 250);
+    //       }
+    //     });
+    //   }
+    // }, {
+    //   rootMargin: '-48% 0%'
+    // });
 
-    $('#toc5 .module').each(function(i, ele){
-      observer2.observe(ele);
-    });
+    // $('#toc5 .module').each(function(i, ele){
+    //   observer2.observe(ele);
+    // });
 
   }
 
