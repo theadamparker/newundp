@@ -34,11 +34,25 @@ $(() => {
     }).foundation('close');
   });
 
-  var wwd = new Foundation.Sticky($('#framework .sticky'), {
+  var wwdsticky = new Foundation.Sticky($('#framework .sticky'), {
     anchor: 'framework',
     marginTop: ($(window).height() - $('#framework .sticky').height())/32,
     stickyOn: 'medium'
   });
+
+  var unsticky = new Foundation.Sticky($('.emblem .sticky'), {
+    anchor: 'unsystem',
+    marginTop: ($(window).height() - $('.emblem .sticky').height())/32,
+    stickyOn: 'large'
+  });
+
+  // console.log(unsticky);
+
+  // unsticky.$element.on('sticky.zf.stuckto:top', function(e){
+  //   $('#unsystem .modules-container').addClass('is-stuck');
+  // }).on('sticky.zf.unstuckfrom:top', function(e){
+  //   $('#unsystem .modules-container').removeClass('is-stuck');
+  // });
 
   // reserve fancy stuff for modern browsers
   if (typeof IntersectionObserver === 'function') {
@@ -58,10 +72,17 @@ $(() => {
 
     var observer2 = new IntersectionObserver((entries, observer) => {
       entries.forEach(entry => {
-        $(entry.target).toggleClass('in-view', entry.isIntersecting);
+        if (entry.isIntersecting) {
+          let $entry = $(entry.target);
+          let offset = $entry.offset();
+          let top = offset.top + $entry.height() - $(window).height()/2;
+          $('html,body').animate({
+            scrollTop: top
+          }, 250);
+        }
       });
     }, {
-      rootMargin: '-47% 0%'
+      rootMargin: '-46% 0%'
     });
 
     $('#toc5 .module').each(function(i, ele){
