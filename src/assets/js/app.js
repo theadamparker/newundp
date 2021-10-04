@@ -71,16 +71,18 @@ $(() => {
     });
 
     var observer2 = new IntersectionObserver((entries, observer) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          let $entry = $(entry.target);
-          let offset = $entry.offset();
-          let top = offset.top + $entry.height() - $(window).height()/2;
-          $('html,body').animate({
-            scrollTop: top
-          }, 250);
-        }
-      });
+      if (Foundation.MediaQuery.atLeast('large')) {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            let $entry = $(entry.target);
+            let offset = $entry.offset();
+            let top = offset.top + $entry.height() - $(window).height()/2;
+            $('html,body').animate({
+              scrollTop: top
+            }, 250);
+          }
+        });
+      }
     }, {
       rootMargin: '-46% 0%'
     });
