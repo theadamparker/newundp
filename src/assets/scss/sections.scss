@@ -92,6 +92,7 @@ header {
 
 .cover {
   color: $white;
+  min-height: 640px;
 
   video {
     position: absolute;
