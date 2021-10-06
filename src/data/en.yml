@@ -23,7 +23,7 @@ labels:
   blank-inline: "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
   message: Message
   share: Share
-  downloadreport: Download report
+  downloadreport: Download
   administrator: Administrator
   readmore: Expand
   readless: Collapse
@@ -42,17 +42,17 @@ menu:
   - Global, regional, local
 
 # download links
+
+downloadActiveLang: >
+  https://www.undp.org/sites/g/files/zskgke326/files/2021-09/UNDP-Strategic-Plan-2022-2025_1.pdf
+
 download:
   - title: العربية
     link: https://www.undp.org/sites/g/files/zskgke326/files/2021-09/UNDP-Strategic-Plan-2022-2025-AR.pdf
   - title: 中文
     link: https://www.undp.org/sites/g/files/zskgke326/files/2021-09/UNDP-Strategic-Plan-2022-2025-ZH.pdf
-  - title: Français
-    link: https://www.undp.org/sites/g/files/zskgke326/files/2021-09/UNDP-Strategic-Plan-2022-2025-FR.pdf
   - title: Русский
     link: https://www.undp.org/sites/g/files/zskgke326/files/2021-09/UNDP-Strategic-Plan-2022-2025-RU.pdf
-  - title: Español
-    link: https://www.undp.org/sites/g/files/zskgke326/files/2021-09/UNDP-Strategic-Plan-2022-2025-SP.pdf
 
 0-cover:
   title: >
