@@ -2,16 +2,16 @@
 lang: es
 logo-blue: pnud-logo-blue.svg
 logo-white: pnud-logo-white.svg
-title: Informe Anual 2020
+title: Plan estratégico 2022-2025
 gtm: GTM-WXLP78Q
 
 # page metadata
 meta:
-  title: Informe Anual 2020 | PNUD
+  title: Plan estratégico 2022-2025 | PNUD
   description: Una fuerza motriz para el futuro del desarrollo
-  keywords: PNUD, UN, Informe Anual, 2020
-  canonical: https://annualreport.undp.org/
-  ogtitle: Informe Anual 2020 | PNUD
+  keywords: PNUD, UN, plan estratégico, 2022
+  canonical: https://strategicplan.undp.org/
+  ogtitle: Plan estratégico 2022-2025 | PNUD
 
 # i18n
 labels:
@@ -23,20 +23,389 @@ labels:
   blank-inline: "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
   message: Mensaje
   share: Comparte
-  annualreport: Informe Anual
-  downloadreport: Descargar el informe
+  downloadreport: Descargar
   administrator: Administrador
-  readmore: "+ Leer más"
-  readless: "- Cerrar"
-  signaturesolution: Solución emblemática
+  readmore: "Leer más"
+  readless: "Cerrar"
+  termsofuse: Terms of use
+
+# content
+
+menu:
+  - Home
+  - Prólogo
+  - Contexto estratégico
+  - Nuestra misión
+  - Alianzas mundiales
+  - Un socio fuerte en el sistema de las Naciones Unidas
+  - Mejora constante
+  - Mundial, regional y local
 
 # download links
 download:
-  - title: Русский
-    link: https://documents-dds-ny.un.org/doc/UNDOC/GEN/N21/184/52/PDF/N2118452.pdf
-  - title: 中文
-    link: https://documents-dds-ny.un.org/doc/UNDOC/GEN/N21/184/49/PDF/N2118449.pdf
   - title: العربية
-    link: https://documents-dds-ny.un.org/doc/UNDOC/GEN/N21/184/48/PDF/N2118448.pdf
+    link: https://www.undp.org/sites/g/files/zskgke326/files/2021-09/UNDP-Strategic-Plan-2022-2025-AR.pdf
+  - title: 中文
+    link: https://www.undp.org/sites/g/files/zskgke326/files/2021-09/UNDP-Strategic-Plan-2022-2025-ZH.pdf
+  - title: Français
+    link: https://www.undp.org/sites/g/files/zskgke326/files/2021-09/UNDP-Strategic-Plan-2022-2025-FR.pdf
+  - title: Русский
+    link: https://www.undp.org/sites/g/files/zskgke326/files/2021-09/UNDP-Strategic-Plan-2022-2025-RU.pdf
+  - title: Español
+    link: https://www.undp.org/sites/g/files/zskgke326/files/2021-09/UNDP-Strategic-Plan-2022-2025-SP.pdf
 
-# content
+0-cover:
+  title: >
+    Plan estratégico<br>2022-2025
+
+1-foreword:
+  title: Prólogo
+  text1: >
+    <p>Nos encontramos en un momento cr&iacute;tico para el mundo y para el desarrollo. Una situaci&oacute;n de emergencia en el planeta, sumada a la pandemia, han agotado los recursos naturales y aumentado la pobreza y las desigualdades.&nbsp;En 2030, podr&iacute;a haber hasta mil millones de personas sumidas en la pobreza extrema si no aprovechamos esta oportunidad para dar un impulso decisivo a los Objetivos de Desarrollo Sostenible (ODS).</p>
+    <p>Ahora bien, tambi&eacute;n es un momento de decisiones fundamentales: una oportunidad para aprender de nuestra experiencia, hacer las cosas de forma distinta y aspirar a objetivos comunes m&aacute;s ambiciosos. El nuevo Plan Estrat&eacute;gico 2022-2025 describe la forma en que el Programa de las Naciones Unidas para el Desarrollo (PNUD) pretende trabajar con sus socios a fin de que nuestra labor est&eacute; a la altura de estos tiempos extraordinarios. As&iacute;, colaboraremos en el conjunto del sistema revitalizado de las Naciones Unidas y, fuera de este, para obtener resultados colectivos m&aacute;s s&oacute;lidos, aplicaremos enfoques integrados con vistas a lograr un cambio transformador y apoyaremos a los gobiernos y las comunidades para que se recuperen de la COVID-19 y construyan un futuro mejor.</p>
+    <p>El Plan Estrat&eacute;gico se basa en el compromiso constante del PNUD con la erradicaci&oacute;n de la pobreza, el apoyo a los pa&iacute;ses en su trayectoria hacia la consecuci&oacute;n de los ODS y el trabajo para lograr el Acuerdo de Par&iacute;s. Fija objetivos ambiciosos que mejorar&aacute;n millones de vidas, al afrontar desaf&iacute;os como la pobreza multidimensional, el acceso a la energ&iacute;a, la participaci&oacute;n electoral y la financiaci&oacute;n del desarrollo. Asimismo, explica la manera en que el PNUD desarrollar&aacute; sus seis soluciones emblem&aacute;ticas, impulsadas por la digitalizaci&oacute;n, la innovaci&oacute;n y la financiaci&oacute;n del desarrollo, con el fin de lograr una mayor repercusi&oacute;n. Establece medidas pr&aacute;cticas para convertirse en una organizaci&oacute;n a&uacute;n m&aacute;s &aacute;gil y con mayor capacidad de anticipaci&oacute;n, as&iacute; como tambi&eacute;n refuerza la inversi&oacute;n en su personal, el modelo institucional y la excelencia operativa.</p>
+  text2: >
+    <p>El Plan describe la manera en que la combinaci&oacute;n de nuestra vasta experiencia local y extensa red mundial, que se nutre del conocimiento y la experiencia compartida de los pa&iacute;ses, aporta valor a los socios. Asimismo, detalla c&oacute;mo vamos a fomentar la innovaci&oacute;n y la creatividad para ayudar a cambiar los sistemas y hacer frente a los mayores desaf&iacute;os que nos aguardan en el camino hacia la consecuci&oacute;n de los ODS. Todas estas medidas tienen por objeto intensificar y acelerar el progreso hacia transiciones ecol&oacute;gicas e inclusivas que empoderen a todas las personas a trav&eacute;s de mayores oportunidades y resiliencia.</p>
+    <p>El Plan es fruto de una estrecha colaboraci&oacute;n con nuestros numerosos socios. Quiero trasladarles mi m&aacute;s sincero agradecimiento, a ellos y a todos los equipos del PNUD, cuya contribuci&oacute;n ha ayudado a elaborar un Plan que refleja de forma inequ&iacute;voca la diversidad de todos los pa&iacute;ses, comunidades y personas a quienes el PNUD sirve.</p>
+    <p>Le invito a leer el Plan y obtener m&aacute;s informaci&oacute;n al respecto. Con su apoyo y colaboraci&oacute;n, el PNUD puede trabajar con los pa&iacute;ses para ampliar las posibilidades de elecci&oacute;n de las personas para un futuro m&aacute;s justo y sostenible, as&iacute; como para hacer realidad el mundo al que aspira la Agenda 2030, un mundo en el que el planeta y las personas viven en armon&iacute;a.</p>
+
+2-strategicContext:
+  title: Contexto estratégico
+  subtitle: Promover el futuro del desarrollo
+  text: >
+    <p>Lograr la Agenda 2030 ya era un desaf&iacute;o, incluso antes de que golpeara la pandemia de la COVID-19. En 2020, el n&uacute;mero de personas que viven en la pobreza aument&oacute; por primera vez desde 1998, alcalzando un estimado de 119 a 124 millones. Esta situaci&oacute;n se ha visto agravada por la emergencia clim&aacute;tica, la polarizaci&oacute;n pol&iacute;tica, el cuestionamiento del multilateralismo, los conflictos prolongados y los desplazamientos forzados. Las desigualdades aumentan y el contrato social tradicional ya no funciona para gran parte de la poblaci&oacute;n.</p>
+    <p>En la actualidad, los desaf&iacute;os en materia de desarrollo est&aacute;n evolucionando y forman un mosaico de riesgos multidimensionales e interconectados que requieren soluciones sist&eacute;micas. La cooperaci&oacute;n multilateral es fundamental para afrontar estos desaf&iacute;os comunes que traspasan fronteras geogr&aacute;ficas y temporales.</p>
+    <p>Ning&uacute;n pa&iacute;s ha logrado a&uacute;n combinar unos &iacute;ndices elevados de desarrollo humano con un bajo impacto ecol&oacute;gico. Los efectos del cambio clim&aacute;tico y la p&eacute;rdida de biodiversidad est&aacute;n aumentando. Ante este panorama complejo e incierto, los ODS y el Acuerdo de Par&iacute;s brindan claridad y se&ntilde;alan el camino a seguir.</p>
+    <p>En los pr&oacute;ximos cuatro a&ntilde;os, el PNUD trabajar&aacute; con los pa&iacute;ses para mejorar la vida de millones de personas para:</p>
+  modules:
+    - icon: 2.1-icon
+      lead: Ayudar a
+      title: 100 millones de personas 
+      text: a escapar de la pobreza multidimensional
+    - icon: 2.2-icon
+      lead: Apoyar el acceso de
+      title: 500 millones de personas
+      text: a fuentes de energía limpia
+    - icon: 2.3-icon
+      lead: Respaldar la participación de
+      title: 800 millones de personas
+      text: en las que, para muchos, serán sus primeras elecciones
+    - icon: 2.4-icon
+      lead: Promover más de
+      title: USD 1 billón
+      text: de gasto público e inversión privada en los ODS
+
+3-whatWeDo:
+  title: Nuestra misión
+  subtitle: La oferta de desarrollo del PNUD 
+  bigText: La labor del PNUD se resume en el Plan Estratégico con el marco “3x6x3”.
+  text: >
+    Esta combinación ayudará al PNUD a seguir haciendo lo que mejor sabe hacer: soluciones de desarrollo integradas alineadas con las prioridades nacionales.
+  frameworkCards:
+    - icon: 3-icon-1
+      numeral: 3
+      title: Ejes de cambio
+      text: >
+        Transformación estructural, No dejar a nadie atrás, Fomentar la resiliencia
+    - icon: 3-icon-2
+      numeral: 6
+      title: Soluciones emblemáticas
+      text: >
+        Pobreza y desigualdad, Gobernanza, Resiliencia, Medio ambiente, Energía, Igualdad de género
+    - icon: 3-icon-3
+      numeral: 3
+      title: Catalizadores
+      text: >
+        Innovación estratégica, Digitalización, Financiación para el desarrollo
+
+
+3-1-directionsOfChange:
+  frameworkSectionHeader:
+    numeral: 3
+    title: Ejes de cambio
+    subtitle: Guiar a las poblaciones y el planeta más allá de 2025
+    text: >
+      <p>En el periodo que abarca este Plan y en adelante, el PNUD prestar&aacute; apoyo a los pa&iacute;ses en la consecuci&oacute;n de los ODS a trav&eacute;s de sus programas, dise&ntilde;ados en funci&oacute;n de las decisiones nacionales en materia desarrollo y con la erradicaci&oacute;n de la pobreza como base.</p>
+      <p>A tal fin, apoyamos a los pa&iacute;ses en la b&uacute;squeda de tres ejes de cambio sist&eacute;mico:</p>
+  modules:
+    - icon: 3.1-icon-1
+      title: Transformación estructural
+      text: >
+        incluidas las transiciones ecológicas, inclusivas y digitales; es decir, trabajar con los países para lograr el cambio en los sistemas y las estructuras que conforman el desarrollo sostenible de un país
+    - icon: 3.1-icon-2
+      title: No dejar a nadie atrás
+      text: un enfoque basado en los derechos que se centra en el empoderamiento, la inclusión, la equidad, la capacidad de acción de las personas y el desarrollo humano
+    - icon: 3.1-icon-3
+      title: Fomentar la resiliencia
+      text: fortalecer la capacidad de los países y las instituciones para prevenir, mitigar y responder a las crisis, los conflictos, los desastres naturales y las perturbaciones económicas, sociales y ambientales
+
+3-2-signatureSolutions:
+  frameworkSectionHeader:
+    numeral: 6
+    title: Soluciones emblemáticas
+    subtitle: Duplicar los esfuerzos para conseguir mejores resultados
+    text: >
+      <p>A partir de la experiencia acumulada a lo largo de los últimos cuatro años, el PNUD:</p>
+      <ul>
+        <li>Priorizar&aacute; a los pa&iacute;ses con demandas m&aacute;s urgentes</li>
+        <li>Se centrar&aacute; en sus puntos fuertes y en su papel en el sistema de las Naciones Unidas</li>
+        <li>Refinar&aacute; y desarrollar&aacute; las soluciones emblem&aacute;ticas para lograr una mayor repercusi&oacute;n a gran escala</li>
+        <li>Ofrecer&aacute; soluciones integradas mediante un enfoque de sistemas</li>
+      </ul>
+  modules:
+    - icon: 3.2-icon-1
+      title: Pobreza y desigualdad
+      text: Abordar la desigualdad de oportunidades invirtiendo en el desarrollo de capacidades para que las personas puedan superar el umbral de pobreza y continuar progresando
+    - icon: 3.2-icon-2
+      title: Gobernanza
+      text: Ayudar a los países a afrontar los desafíos emergentes con sistemas de gobernanza preparados para el futuro mediante enfoques prospectivos y una mejor gestión del riesgo
+    - icon: 3.2-icon-3
+      title: Resiliencia
+      text: Ofrecer apoyo a los países y las comunidades para que fomenten su resiliencia ante las crisis, incluidos los conflictos, el cambio climático, las catástrofes y las epidemias
+    - icon: 3.2-icon-4
+      title: Medio ambiente
+      text: Situar la naturaleza y el medio ambiente en el centro de los planes y economías nacionales y ayudar a los gobiernos a proteger, gestionar y valorar su patrimonio natural
+    - icon: 3.2-icon-5
+      title: Energía
+      text: Aumentar el acceso a la energía de las personas más rezagadas y acelerar la transición hacia las energías renovables
+    - icon: 3.2-icon-6
+      title: Igualdad de género
+      text: Hacer frente a los obstáculos estructurales para lograr la igualdad de género y reforzar el empoderamiento económico y el liderazgo de las mujeres
+
+3-3-enablers:
+  frameworkSectionHeader:
+    numeral: 3
+    title: Catalizadores
+    subtitle: Optimizar el impacto del desarrollo
+    text: >
+      <p>Los catalizadores son las capacidades y los enfoques orientados a ampliar el impacto del desarrollo de los países socios y dentro de los sistemas del PNUD:</p>
+  modules:
+    - icon: 3.3-icon-1
+      title: Digitalización
+      text: >
+        Apoyar a los países en la construcción de sociedades digitales inclusivas, éticas y sostenibles
+    - icon: 3.3-icon-2
+      title: Innovación estratégica
+      text: Capacitar a los gobiernos y las comunidades para mejorar el rendimiento de los sistemas en su conjunto, de modo que sean adaptativos y resilientes
+    - icon: 3.3-icon-3
+      title: Financiación para el desarrollo
+      text: Asociarse con los gobiernos y el sector privado para armonizar los flujos de capital público y privado para los ODS y movilizar la financiación a escala
+
+4-partnerships:
+  title: Alianzas mundiales 
+  subtitle: Forjar conexiones a favor de los ODS
+  text: >
+    <p>A fin de obtener resultados a la velocidad y la escala necesarias para conseguir la Agenda 2030, es preciso forjar alianzas estrechas con una amplia variedad de agentes que trabajan en pos de objetivos comunes. Las alianzas de larga duraci&oacute;n del PNUD aprovechan las diversas capacidades, recursos y conocimientos de nuestros socios.</p>
+    <p>Durante los pr&oacute;ximos cuatro a&ntilde;os, el PNUD reforzar&aacute; las alianzas existentes y forjar&aacute; otras nuevas. Gracias a su poder de convocatoria, el PNUD seguir&aacute; construyendo alianzas estrat&eacute;gicas con poblaciones marginadas y empoderando a los agentes locales.</p>
+    <p>Las alianzas del futuro requieren instrumentos, modalidades y financiaci&oacute;n flexibles mejor adaptados a los nuevos tipos de socios o a las nuevas formas de colaboraci&oacute;n (por ejemplo, los enfoques de licencia &ldquo;Creative Commons&rdquo; para compartir la propiedad intelectual).</p>
+    <p>Asimismo, el PNUD colaborar&aacute; con sus socios para promover y facilitar la cooperaci&oacute;n mundial y regional en torno a los desaf&iacute;os comunes, desde las pandemias a los conflictos o las transiciones ecol&oacute;gicas, a la vez que muestra el valor de las soluciones multilaterales.</p>
+
+5-unSystem:
+  title: Un socio fuerte en el sistema de las Naciones Unidas
+  subtitle: Complementar nuestras capacidades
+  text: Dado que trabajamos con socios de todo el sistema de las Naciones Unidas, aprovechamos los puntos fuertes mutuos y las capacidades complementarias en vistas a obtener resultados más sólidos. 
+  modules:
+    - icon: 5-icon-1
+      text: Junto con el sistema de las Naciones Unidas para el desarrollo, a fin de ofrecer soluciones de desarrollo coherentes e integradas, de acuerdo con la demanda de los países, que maximizan los resultados y el impacto colectivos
+    - icon: 5-icon-2
+      text: Como organismo técnico principal de la respuesta socioeconómica de las Naciones Unidas a la COVID-19
+    - icon: 5-icon-3
+      text: En colaboración con los gobiernos y socios, bajo la dirección de la Organización Mundial de la Salud y UNICEF, a fin de apoyar la preparación y el despliegue de la vacuna contra la COVID-19
+    - icon: 5-icon-4
+      text: Junto con el programa de los Voluntarios de las Naciones Unidas, el fondo fiduciario multipartito de las Naciones Unidas, la Oficina de las Naciones Unidas para la Cooperación Sur-Sur y el Fondo de las Naciones Unidas para el Desarrollo de la Capitalización, con el propósito de reforzar el sistema de desarrollo revitalizado
+    - icon: 5-icon-5
+      text: Conectar a los socios con la experiencia del PNUD y los conocimientos especializados del PNUD en equipos nacionales, regionales y mundiales a través de la Red de Políticas Globales
+
+6-betterneverstops:
+  title: Mejora constante
+  subtitle: Partir de las lecciones aprendidas
+  text: >
+    <p>El Plan Estrat&eacute;gico 2018-2021 estableci&oacute; un programa ambicioso: transformar el PNUD en un referente intelectual m&aacute;s &aacute;gil e innovador, m&aacute;s eficaz y eficiente en la obtenci&oacute;n de resultados, a la vez que convertirse en un socio de confianza para los pa&iacute;ses para lograr los ODS.</p>
+    <p>El Plan Estrat&eacute;gico 2022-2025 contin&uacute;a en la misma direcci&oacute;n, partiendo de los progresos logrados en los &uacute;ltimos cuatro a&ntilde;os. Se nutre de valoraciones, evaluaciones y auditor&iacute;as, as&iacute; como de las lecciones extra&iacute;das de la experiencia, incluida nuestra respuesta a la COVID-19.</p>
+    <p>El plan tambi&eacute;n se ha visto enriquecido por las conversaciones con diversos profesionales y l&iacute;deres intelectuales de gobiernos, la sociedad civil, el sector privado, el sistema de las Naciones Unidas y el personal del PNUD en todo el mundo.</p>
+
+  lessons:
+    - icon: 6-icon-1
+      text: El poder de la integración
+    - icon: 6-icon-2
+      text: La comprensión y gestión del riesgo
+    - icon: 6-icon-3
+      text: La modernización de los sistemas y estructuras operacionales 
+    - icon: 6-icon-4
+      text: La actualización de los arreglos de programación y las modalidades de aplicación 
+
+7-global:
+  title: Mundial, regional y local
+  text: >
+    <p>La red del PNUD une a personas de todo el mundo para impulsar un impacto y resultados sostenibles para las personas y el planeta.</p>
+  regions:
+    - name: América Latina y el Caribe
+      columns: 2
+      items:
+        - name: <b>Centro Regional de Panamá</b>
+        - name: Argentina
+        - name: Barbados y Caribe Oriental (que incluye Anguila, Antigua y Barbuda, Barbados, las Islas Vírgenes Británicas, el Commonwealth de Dominica, Granada, Montserrat, Santa Lucía, Saint Kitts y Nevis y San Vicente y las Granadinas)
+        - name: Bolivia
+        - name: Brasil
+        - name: Chile
+        - name: Colombia
+        - name: Costa Rica
+        - name: Cuba
+        - name: República Dominicana
+        - name: Ecuador
+        - name: El Salvador
+        - name: Guatemala
+        - name: Guyana
+        - name: Haití
+        - name: Honduras
+        - name: Jamaica (que incluye las Bahamas, Belice, las Bermudas, las Islas Caimán, Jamaica y las Islas Turcas y Caicos)
+        - name: México
+        - name: Panamá
+        - name: Paraguay
+        - name: Perú
+        - name: Suriname
+        - name: Trinidad y Tabago (que incluye Aruba, Curaçao, Sint Maarten y Trinidad y Tabago)
+        - name: Uruguay
+        - name: Venezuela
+    - name: América del Norte
+      columns: 1
+      items:
+        - name: Sede de Nueva York
+    - name: África
+      columns: 2
+      items:
+        - name: <b>Centro Regional de Servicios de Addis Abeba</b>
+        - name: Angola
+        - name: Benin
+        - name: Botswana
+        - name: Burkina Faso
+        - name: Burundi
+        - name: Camerún
+        - name: Cabo Verde
+        - name: República Centroafricana
+        - name: Chad
+        - name: Comoras
+        - name: Congo (República Democrática del)
+        - name: Congo (República del)
+        - name: Costa de Marfil
+        - name: Guinea Ecuatorial
+        - name: Eritrea
+        - name: Eswatini
+        - name: Etiopía
+        - name: Gabón
+        - name: Gambia
+        - name: Ghana
+        - name: Guinea
+        - name: Guinea-Bissau
+        - name: Kenya
+        - name: Lesotho
+        - name: Liberia
+        - name: Madagascar
+        - name: Malawi
+        - name: Mali
+        - name: Mauritania
+        - name: Mauricio y Seychelles
+        - name: Mozambique
+        - name: Namibia
+        - name: Níger
+        - name: Nigeria
+        - name: Rwanda
+        - name: Santo Tomé y Príncipe
+        - name: Senegal
+        - name: Sierra Leona
+        - name: Sudáfrica
+        - name: Sudán del Sur
+        - name: Tanzania
+        - name: Togo
+        - name: Uganda
+        - name: Zambia
+        - name: Zimbabwe
+    - name: Estados Árabes
+      columns: 2
+      items:
+        - name: <b>Centro Regional de Ammán</b>
+        - name: Argelia
+        - name: Bahrein
+        - name: Djibouti
+        - name: Egipto
+        - name: Iraq
+        - name: Jordania
+        - name: Kuwait
+        - name: Líbano
+        - name: Libia
+        - name: Marruecos
+        - name: Programa de Asistencia al Pueblo Palestino
+        - name: Arabia Saudita
+        - name: Somalia
+        - name: Sudán
+        - name: Síria
+        - name: Túnez
+        - name: Yemen
+    - name: Europa y Asia Central
+      columns: 2
+      items:
+        - name: <b>Centro Regional de Estambul</b>
+        - name: Albania
+        - name: Armenia
+        - name: Azerbaiyán
+        - name: Belarús
+        - name: Bosnia y Herzegovina
+        - name: Chipre
+        - name: Georgia
+        - name: Kazajstán
+        - name: Kosovo (en virtud de la resolución 1244 del Consejo de Seguridad de las Naciones Unidas)
+        - name: Kirguistán
+        - name: Moldova
+        - name: Montenegro
+        - name: Macedonia del Norte
+        - name: Serbia
+        - name: Tayikistán
+        - name: Turquía
+        - name: Turkmenistán
+        - name: Ucrania
+        - name: Uzbekistán
+    - name: Asia y el Pacífico
+      columns: 2
+      items:
+        - name: <b>Centro Regional de Bangkok</b>
+        - name: Afganistán
+        - name: Bangladesh
+        - name: Bután
+        - name: Camboya
+        - name: China
+        - name: República Popular Democrática de Corea
+        - name: India
+        - name: Indonesia
+        - name: Irán
+        - name: República Democrática Popular Lao
+        - name: Malasia (que incluye Brunei Darussalam, Malasia y Singapur)
+        - name: Maldivas
+        - name: Mongolia
+        - name: Myanmar
+        - name: Nepal
+        - name: Oficina para el Pacífico en Fiji (que incluye los Estados Federados de Micronesia, Fiji, Kiribati, la República de las Islas Marshall, Nauru, Palau, las Islas Salomón, Tonga, Tuvalu y Vanuatu)
+        - name: Pakistán
+        - name: Papúa Nueva Guinea
+        - name: Filipinas
+        - name: Samoa (que incluye Samoa, las Islas Cook, Niue y Tokelau)
+        - name: Sri Lanka
+        - name: Tailandia
+        - name: Timor-Leste
+        - name: Vietnam
+    - name: Oficinas de Representación
+      columns: 1
+      items:
+        - name: Oficina de Representación en Bruselas (que incluye la Unión Europea)
+        - name: Oficina de Representación en Ginebra
+        - name: Oficina de Representación para los Países Nórdicos (que incluye Dinamarca, Finlandia, Noruega y Suecia)
+        - name: Oficina de Representación en Tokio
+        - name: Oficina de Representación en Washington
+    - name: Centros de Políticas
+      columns: 1
+      items:
+        - name: Centro Mundial de Nairobi de Políticas sobre Ecosistemas Resilientes y Desertificación
+        - name: Centro de Oslo para la Gobernanza
+        - name: Centro Internacional de Estambul para el Sector Privado en el Desarrollo
+        - name: Centro de Políticas de Seúl para el intercambio de conocimientos mediante alianzas para lograr los ODS
+        - name: Centro Mundial de Singapur de Tecnología, Innovación y Desarrollo Sostenible
+
