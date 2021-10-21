@@ -32,9 +32,11 @@
               {{#each 3-2-signatureSolutions.modules}}
               <div class="cell module" data-shadow-class="swiper-slide module">
                 <div data-equalizer-watch>
-                  <img
-                    src="{{@root.root}}assets/img/{{icon}}.svg"
-                    alt="">
+                  <img alt=""
+                    src="{{@root.root}}{{labels.blank}}"
+                    data-src="{{@root.root}}assets/img/{{icon}}.png"
+                    data-srcset="{{@root.root}}assets/img/{{icon}}@2x.png 2x" width="257" height="257"
+                    class="lazyload">
                 </div>
                 <div class="title">{{{title}}}</div>
                 <p class="smallText">{{{ text }}}</p>
