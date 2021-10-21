@@ -56,8 +56,7 @@ download:
 
 0-cover:
   title: >
-    Strategic Plan <br>
-    2022–2025
+    Strategic Plan <br>2022–2025
 
 1-foreword:
   title: Foreword
@@ -68,7 +67,7 @@ download:
   text2: >
     <p>The Plan describes how the combination of our deep local experience and our rich global network, tapping into countries’ knowledge and shared experience, delivers value to our partners.  How we will foster innovation and creativity to help change systems and tackle the hardest challenges standing between us and the SDGs.  All this to scale and accelerate progress towards green, inclusive transitions that empower every last person through greater opportunity and resilience.</p>
     <p>The Plan is the result of extensive collaboration with our many partners.  I am immensely grateful to them, and to all our UNDP teams, whose contributions have helped produce a Plan that truly reflects the diversity of all the countries, communities and people whom UNDP serves.</p>
-    <p>I invite you to read the Plan itself and learn more.  With your support and collaboration, together UNDP can work with countries to expand people’s choices for a fairer, sustainable future, to build the world envisioned by Agenda 2030 with planet and people in balance.</p>
+    <p>I invite you to <a target="_blank" href="https://undocs.org/Home/Mobile?FinalSymbol=DP%2F2021%2F28&Language=E&DeviceType=Desktop">read the Plan itself</a> and learn more.  With your support and collaboration, together UNDP can work with countries to expand people’s choices for a fairer, sustainable future, to build the world envisioned by Agenda 2030 with planet and people in balance.</p>
 
 
 2-strategicContext:
@@ -242,7 +241,7 @@ download:
   text: >
     <p>UNDP’s network brings the world together, driving sustainable impact and results for people and planet.</p>
   regions:
-    - name: Latin America and the Carribean
+    - name: Latin America and the Carribbean
       columns: 2
       items:
         - name: <b>Panama Regional Hub</b>
@@ -400,7 +399,9 @@ download:
       items:
         - name: Brussels Representation Office <i>(covering European Union)</i>
         - name: Geneva Representation Office
+        - name: Germany Representation Office
         - name: Nordic Representation Office <i>(covering Denmark, Finland, Norway, Sweden)</i>
+        - name: Qatar Representation Office
         - name: Tokyo Representation Office
         - name: Washington Representation Office
     - name: Policy Centres

@@ -67,7 +67,7 @@ download:
   text2: >
     <p>Le Plan montre combien la mise en commun de nos exp&eacute;riences approfondies au niveau local et de notre solide r&eacute;seau mondial, en s&rsquo;appuyant sur les connaissances des pays et des exp&eacute;riences communes, est essentielle pour nos partenaires. Il pr&eacute;sente la mani&egrave;re dont nous encouragerons l&rsquo;innovation et la cr&eacute;ativit&eacute; en vue de contribuer &agrave; l&rsquo;&eacute;volution des syst&egrave;mes et de relever les d&eacute;fis les plus difficiles entravant la r&eacute;alisation des ODD. Le but principal est d&rsquo;intensifier et d&rsquo;acc&eacute;l&eacute;rer les progr&egrave;s vers des transitions vertes et inclusives qui permettront d&rsquo;autonomiser toutes les populations en leur offrant davantage de possibilit&eacute;s et en renfor&ccedil;ant la r&eacute;silience.</p>
     <p>Le Plan est le fruit d&rsquo;une &eacute;troite collaboration avec nos nombreux partenaires. Je leur suis extr&ecirc;mement reconnaissant, ainsi qu&rsquo;&agrave; toutes nos &eacute;quipes du PNUD, car leurs contributions ont permis d&rsquo;&eacute;laborer un plan qui refl&egrave;te v&eacute;ritablement la diversit&eacute; de tous les pays, de toutes les communaut&eacute;s et de toutes les personnes que le PNUD entend servir.</p>
-    <p>Je vous invite &agrave; lire le Plan pour en apprendre davantage. Gr&acirc;ce &agrave; votre soutien et &agrave; votre collaboration, le PNUD peut aider les pays &agrave; offrir un plus large &eacute;ventail de choix aux personnes afin de leur assurer un avenir plus s&ucirc;r et &eacute;quitable, et de b&acirc;tir le monde auquel aspire le Programme de d&eacute;veloppement durable &agrave; l&rsquo;horizon&nbsp;2030, un monde o&ugrave; la plan&egrave;te et sa population seraient en harmonie.</p>
+    <p>Je vous invite &agrave; <a target="_blank" href="https://undocs.org/Home/Mobile?FinalSymbol=DP%2F2021%2F28&Language=E&DeviceType=Desktop">lire le Plan</a> pour en apprendre davantage. Gr&acirc;ce &agrave; votre soutien et &agrave; votre collaboration, le PNUD peut aider les pays &agrave; offrir un plus large &eacute;ventail de choix aux personnes afin de leur assurer un avenir plus s&ucirc;r et &eacute;quitable, et de b&acirc;tir le monde auquel aspire le Programme de d&eacute;veloppement durable &agrave; l&rsquo;horizon&nbsp;2030, un monde o&ugrave; la plan&egrave;te et sa population seraient en harmonie.</p>
 
 2-strategicContext:
   title: Contexte stratégique 
@@ -395,9 +395,11 @@ download:
     - name: Bureaux de représentation
       columns: 1
       items:
+        - name: Bureau de représentation de l'Allemagne
         - name: Bureau de représentation de Bruxelles (pour l’Union européenne)
         - name: Bureau de représentation de Genève
         - name: Bureau de représentation des pays nordiques (Danemark, Finlande, Norvège et Suède)
+        - name: Bureau de représentation du Qatar
         - name: Bureau de représentation de Tokyo
         - name: Bureau de représentation de Washington
     - name: Centres de politique

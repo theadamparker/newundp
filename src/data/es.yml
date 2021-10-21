@@ -67,7 +67,7 @@ download:
   text2: >
     <p>El Plan describe la manera en que la combinaci&oacute;n de nuestra vasta experiencia local y extensa red mundial, que se nutre del conocimiento y la experiencia compartida de los pa&iacute;ses, aporta valor a los socios. Asimismo, detalla c&oacute;mo vamos a fomentar la innovaci&oacute;n y la creatividad para ayudar a cambiar los sistemas y hacer frente a los mayores desaf&iacute;os que nos aguardan en el camino hacia la consecuci&oacute;n de los ODS. Todas estas medidas tienen por objeto intensificar y acelerar el progreso hacia transiciones ecol&oacute;gicas e inclusivas que empoderen a todas las personas a trav&eacute;s de mayores oportunidades y resiliencia.</p>
     <p>El Plan es fruto de una estrecha colaboraci&oacute;n con nuestros numerosos socios. Quiero trasladarles mi m&aacute;s sincero agradecimiento, a ellos y a todos los equipos del PNUD, cuya contribuci&oacute;n ha ayudado a elaborar un Plan que refleja de forma inequ&iacute;voca la diversidad de todos los pa&iacute;ses, comunidades y personas a quienes el PNUD sirve.</p>
-    <p>Le invito a leer el Plan y obtener m&aacute;s informaci&oacute;n al respecto. Con su apoyo y colaboraci&oacute;n, el PNUD puede trabajar con los pa&iacute;ses para ampliar las posibilidades de elecci&oacute;n de las personas para un futuro m&aacute;s justo y sostenible, as&iacute; como para hacer realidad el mundo al que aspira la Agenda 2030, un mundo en el que el planeta y las personas viven en armon&iacute;a.</p>
+    <p>Le invito a <a target="_blank" href="https://undocs.org/Home/Mobile?FinalSymbol=DP%2F2021%2F28&Language=E&DeviceType=Desktop">leer el Plan</a> y obtener m&aacute;s informaci&oacute;n al respecto. Con su apoyo y colaboraci&oacute;n, el PNUD puede trabajar con los pa&iacute;ses para ampliar las posibilidades de elecci&oacute;n de las personas para un futuro m&aacute;s justo y sostenible, as&iacute; como para hacer realidad el mundo al que aspira la Agenda 2030, un mundo en el que el planeta y las personas viven en armon&iacute;a.</p>
 
 2-strategicContext:
   title: Contexto estratégico
@@ -395,9 +395,11 @@ download:
     - name: Oficinas de Representación
       columns: 1
       items:
+        - name: Oficina de Representación de Alemania
         - name: Oficina de Representación en Bruselas (que incluye la Unión Europea)
         - name: Oficina de Representación en Ginebra
         - name: Oficina de Representación para los Países Nórdicos (que incluye Dinamarca, Finlandia, Noruega y Suecia)
+        - name: Oficina de Representación de Qatar
         - name: Oficina de Representación en Tokio
         - name: Oficina de Representación en Washington
     - name: Centros de Políticas
